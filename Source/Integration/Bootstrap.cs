@@ -10,7 +10,7 @@ namespace LertWheelbarrows
             harmony.PatchAll();
             CommonSenseCompatibility.Apply(harmony);
             AllowToolCompatibility.Apply(harmony);
-            Log.Message("[LertWheelbarrows] 0.3.0 loaded (RimWorld 1.6).");
+            Log.Message("[LertWheelbarrows] 0.4.0 loaded (RimWorld 1.6).");
         }
     }
 }

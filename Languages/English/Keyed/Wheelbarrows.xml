@@ -40,6 +40,8 @@
   <LERT_WB_ReturnSteel>Returning the "steel" wheelbarrow</LERT_WB_ReturnSteel>
   <LERT_WB_ReturnPlasteel>Returning the "plasteel" wheelbarrow</LERT_WB_ReturnPlasteel>
   <LERT_WB_ParkSelected>Park selected wheelbarrows</LERT_WB_ParkSelected>
-  <LERT_WB_ParkSelectedDesc>Ask haulers to return all selected wheelbarrows to allowed parking. Active users finish their transport. Requests survive interruptions; free parking and available colonists assigned to hauling are required.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkSelectedDesc>Ask haulers to return one or all selected wheelbarrows to allowed parking. Pending carts show a map marker; the button is disabled when all selected carts are requested. Active users finish their transport. Free parking and available haulers are required; requests survive interruptions.</LERT_WB_ParkSelectedDesc>
   <LERT_WB_ParkingRequested>Return to parking requested.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Return to parking</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Delivering construction materials with a wheelbarrow.</LERT_WB_ConstructionDelivery>
 </LanguageData>

@@ -5,6 +5,7 @@ using UnityEngine;
 using Verse;
 namespace LertWheelbarrows
 {
+    [StaticConstructorOnStartup]
     public class Thing_Wheelbarrow : ThingWithComps, IThingHolder, IThingHolderEvents<Thing>
     {
         private ThingOwner<Thing> cargo;
@@ -35,6 +36,21 @@ namespace LertWheelbarrows
         public void Notify_ItemRemoved(Thing item){RefreshCargoGraphic();}
         private void RefreshCargoGraphic(){if(Spawned)Map.mapDrawer.MapMeshDirty(Position,MapMeshFlagDefOf.Things);}
         public string ReturnLabel => ("LERT_WB_Return"+Kind).Translate();
+        public void RequestParking()
+        {
+            ParkingRequested=true;RetryAfter=0;
+            if(User?.jobs?.curDriver is JobDriver_Wheelbarrow driver)driver.RequestFinish();
+        }
+        private static Material parkingOverlay;
+        public void DrawParkingOverlay()
+        {
+            if(!ParkingRequested || MapHeld==null || PositionHeld.Fogged(MapHeld))return;
+            if(parkingOverlay==null)parkingOverlay=MaterialPool.MatFrom("UI/keys/Park_Selected_Wheelbarrows_overlay",ShaderDatabase.MetaOverlay);
+            Vector3 pos=DrawPos;
+            pos.y=AltitudeLayer.MetaOverlays.AltitudeFor();
+            pos.z+=0.5f;
+            Graphics.DrawMesh(MeshPool.GridPlane(new Vector2(0.6f,0.6f)),pos,Quaternion.identity,parkingOverlay,0);
+        }
         public override void ExposeData()
         {
             base.ExposeData();
@@ -54,16 +70,19 @@ namespace LertWheelbarrows
         {
             foreach(var gizmo in base.GetGizmos())yield return gizmo;
             var selected=Find.Selector.SelectedObjects.OfType<Thing_Wheelbarrow>().Where(c=>c.MapHeld==MapHeld).ToList();
-            if(selected.Count>1 && selected[0]==this)
-                yield return new Command_Action{defaultLabel="LERT_WB_ParkSelected".Translate(),defaultDesc="LERT_WB_ParkSelectedDesc".Translate(),icon=ContentFinder<Texture2D>.Get("UI/keys/Park_Selected_Wheelbarrows"),action=()=>
+            if(selected.Count>0 && selected[0]==this)
+            {
+                var park=new Command_Action{defaultLabel=(selected.Count==1?"LERT_WB_ParkSingle":"LERT_WB_ParkSelected").Translate(),defaultDesc="LERT_WB_ParkSelectedDesc".Translate(),icon=ContentFinder<Texture2D>.Get("UI/keys/Park_Selected_Wheelbarrows"),action=()=>
                 {
                     foreach(var cart in selected)
                     {
                         if(cart.Destroyed || cart.MapHeld==null)continue;
-                        cart.ParkingRequested=true;cart.RetryAfter=0;
-                        if(cart.User?.jobs?.curDriver is JobDriver_Wheelbarrow active)active.RequestFinish();
+                        cart.RequestParking();
                     }
                 }};
+                if(selected.All(c=>c.ParkingRequested))park.Disable("LERT_WB_ParkingRequested".Translate());
+                yield return park;
+            }
             if(Cargo.Any && User?.jobs?.curDriver is JobDriver_Wheelbarrow driver)
                 yield return new Command_Action{defaultLabel="LERT_WB_UnloadAll".Translate(),defaultDesc="LERT_WB_UnloadDesc".Translate(),icon=ContentFinder<Texture2D>.Get(def.graphicData.texPath),action=()=>driver.RequestUnload()};
         }

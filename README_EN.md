@@ -1,5 +1,7 @@
 LERT'S WHEELBARROWS — PRACTICAL HAULING FOR RIMWORLD 1.6
-Version 0.3.0
+Version 0.4.0
+
+Update 0.4.0: wheelbarrows supply construction projects, including large floor areas. After unloading, colonists can start another load from their current location without returning to parking. The parking button works for one or multiple selected carts; pending requests gray out the button and show a map marker. Construction work and old floor removal remain native jobs. Finish work or a parking request stops further loading.
 
 Update 0.3.0: loaded graphics for any nonempty cargo, custom icons, Allow Tool urgent hauling support, group parking for selected wheelbarrows, a dedicated category, and stock at suitable traders. Base market values: wooden 100, steel 250, plasteel 820 silver. Enable wheelbarrows on the pawn for urgent hauling; these trips collect only urgent designated items with available storage. Group parking requires available haulers and free allowed parking cells.
 
@@ -63,7 +65,7 @@ HOW HAULING WORKS
 
 5. The colonist visits the nearest eligible storage locations. Filters, storage priorities, and available space determine where each item may go. After unloading, the next eligible destination is chosen from the colonist's new position.
 
-6. The wheelbarrow is returned to the highest-priority available parking zone. Among equally prioritized options, the nearest available space is preferred.
+6. Once empty, the wheelbarrow can start another load from its current location. It returns to the highest-priority available parking zone when there is no more eligible work or Finish work / Return to parking is requested. Among equally prioritized options, the nearest available space is preferred.
 
 For example, 50 hay, 4 components, 100 corn, and a minified chair can share a run if their combined mass fits. Hay and corn can go to the appropriate food stockpile, components to a materials stockpile, and the chair to furniture storage.
 
@@ -125,7 +127,7 @@ This is an early version of the mod. Full compatibility with arbitrary modpacks 
 Current limits:
 - Adult human colonists only. Children, animals, and mechanoids are not supported.
 - The mod hauls existing items. It does not automatically mine ore, cut trees for cargo, or harvest crops.
-- Ingredient delivery, construction, refueling, feeding, pawn carrying, and corpse hauling are not replaced.
+- Construction material supply is supported; actual building work remains native. Recipe ingredient delivery, refueling, feeding, pawn carrying, and corpse hauling are not replaced.
 - Containers with nested cargo are excluded. Empty minified furniture is allowed.
 - No caravan capacity bonus, animal-drawn carts, saddles, or automatic cross-map transport of an attached wheelbarrow.
 - A wheelbarrow occupies one cell and follows the colonist's normal path. There is no separate wheel-physics system.

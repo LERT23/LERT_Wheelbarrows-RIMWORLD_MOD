@@ -40,6 +40,8 @@
   <LERT_WB_ReturnSteel>Возвращает "стальную" тачку</LERT_WB_ReturnSteel>
   <LERT_WB_ReturnPlasteel>Возвращает "пласталевую" тачку</LERT_WB_ReturnPlasteel>
   <LERT_WB_ParkSelected>Вернуть все тачки</LERT_WB_ParkSelected>
-  <LERT_WB_ParkSelectedDesc>Поручить перевозчикам вернуть все выбранные тачки на разрешённую парковку. Занятые тачки завершат перевозку. Запрос сохраняется после прерывания; нужны свободные места и доступные работники с назначенной переноской.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkSelectedDesc>Попросить перевозчиков вернуть одну или все выбранные тачки на разрешённую парковку. Запрошенные тачки отмечены на карте; кнопка серая, когда запрошены все выбранные тачки. Текущие пользователи завершают рейс. Нужны свободные места и доступные переносчики; запрос сохраняется после прерывания.</LERT_WB_ParkSelectedDesc>
   <LERT_WB_ParkingRequested>Ожидает возврата на парковку.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Вернуть на стоянку</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Доставляет материалы тачкой на стройку.</LERT_WB_ConstructionDelivery>
 </LanguageData>

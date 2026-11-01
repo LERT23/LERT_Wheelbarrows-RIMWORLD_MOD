@@ -4,7 +4,7 @@
     <RimWorldPath Condition="'$(RimWorldPath)'==''">C:\GAMES\RimWorld</RimWorldPath>
     <OutputPath>../Mod/Assemblies/</OutputPath><AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo><AssemblyName>LertWheelbarrows</AssemblyName>
-    <Version>0.3.0</Version><DebugType>portable</DebugType>
+    <Version>0.4.0</Version><DebugType>portable</DebugType>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net472" Version="1.0.3" PrivateAssets="all" />

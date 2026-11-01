@@ -77,7 +77,9 @@ namespace LertWheelbarrows
             {
                 if(cart.User?.Spawned!=true) continue;
                 cart.Graphic.Draw(cart.DrawPos,cart.User.Rotation,cart);
+                cart.DrawParkingOverlay();
             }
+            foreach(var cart in map.listerThings.AllThings.OfType<Thing_Wheelbarrow>())cart.DrawParkingOverlay();
         }
     }
 }

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using RimWorld;
 using Verse;
 using Verse.AI;
@@ -39,12 +40,13 @@ namespace LertWheelbarrows
         private int nextAction;
         private bool unloadRequested;
         private bool finishRequested;
+        private bool construction;
         private Thing unloadItem;
         private Thing_Wheelbarrow Cart => job.targetA.Thing as Thing_Wheelbarrow;
         private MapComponent_Wheelbarrows State => pawn.Map.GetComponent<MapComponent_Wheelbarrows>();
         public TransportPhase Phase => phase;
         public void RequestUnload(Thing item=null) {unloadRequested=true;unloadItem=item;}
-        public void RequestFinish(){finishRequested=true;job.count=1;}
+        public void RequestFinish(){finishRequested=true;job.count=1;if(Cart!=null)Cart.ParkingRequested=true;}
         private bool Urgent => job.workGiverDef?.defName=="HaulUrgently";
         public override bool TryMakePreToilReservations(bool errorOnFailed)
         {
@@ -65,15 +67,20 @@ namespace LertWheelbarrows
             Scribe_Collections.Look(ref rejectedParking,"wbRejectedParking",LookMode.Value);
             Scribe_Values.Look(ref unloadRequested,"wbUnloadRequested");
             Scribe_Values.Look(ref finishRequested,"wbFinishRequested");
+            Scribe_Values.Look(ref construction,"wbConstruction");
             Scribe_References.Look(ref unloadItem,"wbUnloadItem");
             if(Scribe.mode==LoadSaveMode.PostLoadInit) {walking=false;arrived=false;seen=seen??new HashSet<int>();rejectedParking=rejectedParking??new HashSet<IntVec3>();}
         }
-        public override string GetReport() => Cart!=null && (phase==TransportPhase.Park || phase==TransportPhase.Acquire && job.count==1) ? Cart.ReturnLabel : ("LERT_WB_Phase_"+phase).Translate();
+        public override string GetReport() => Cart!=null && (phase==TransportPhase.Park || phase==TransportPhase.Acquire && job.count==1) ? Cart.ReturnLabel : (construction && phase==TransportPhase.Deliver ? "LERT_WB_ConstructionDelivery" : "LERT_WB_Phase_"+phase).Translate();
         protected override IEnumerable<Toil> MakeNewToils()
         {
             AddFinishAction(condition=>
             {
-                if(pawn.Map!=null) pawn.Map.GetComponent<MapComponent_Wheelbarrows>().Detach(pawn,pawn.Position);
+                if(pawn.Map!=null)
+                {
+                    pawn.Map.enrouteManager.ReleaseAllClaimedBy(pawn);
+                    pawn.Map.GetComponent<MapComponent_Wheelbarrows>().Detach(pawn,pawn.Position);
+                }
             });
             var work=ToilMaker.MakeToil("WheelbarrowTransport");
             work.defaultCompleteMode=ToilCompleteMode.Never;
@@ -117,6 +124,8 @@ namespace LertWheelbarrows
                     else if(Cart.Cargo.Contains(unloadItem))Cart.Cargo.TryDrop(unloadItem,pawn.Position,pawn.Map,ThingPlaceMode.Near,out Thing dropped,State.MarkLeftover);
                 }
                 unloadRequested=false;unloadItem=null;
+                job.count=1;Cart.ParkingRequested=true;
+                if(construction)ConstructionPlanner.RefreshEnroute(pawn,Cart);
                 pickup=null;deliveryItem=null;deliveryContainer=null;
                 pawn.Map.reservationManager.ReleaseClaimedBy(pawn,job);
                 hasParking=false;parkingIsZone=false;parkingCell=IntVec3.Invalid;
@@ -126,6 +135,8 @@ namespace LertWheelbarrows
             switch(phase)
             {
                 case TransportPhase.Acquire:
+                    construction=construction || job.targetC.Thing is IConstructible;
+                    if(job.count==1)Cart.ParkingRequested=true;
                     if(State.ActiveCart(pawn)!=Cart)
                     {
                         if(!Cart.Spawned || Cart.IsForbidden(pawn)) {EndJobWith(JobCondition.Incompletable);return;}
@@ -155,15 +166,17 @@ namespace LertWheelbarrows
         }
         private void Gather()
         {
-            if(!job.playerForced && !State.Enabled(pawn)) {pickup=null;Change(TransportPhase.Deliver);return;}
+            if(job.count==1 || Cart.ParkingRequested || !job.playerForced && !State.Enabled(pawn)) {SkipPickup();Change(TransportPhase.Deliver);return;}
+            if(walking && !arrived)return;
             if(pickup==null)
             {
-                pickup=HaulPlanner.NextPickup(pawn,Cart,seen,Urgent);
+                pickup=construction ? ConstructionPlanner.NextPickup(pawn,Cart,seen) : HaulPlanner.NextPickup(pawn,Cart,seen,Urgent);
                 if(pickup==null) {Change(TransportPhase.Deliver);return;}
-                if(!Cart.Cargo.Any && !HaulPlanner.HasStorage(pawn,pickup)) {seen.Add(pickup.thingIDNumber);pickup=null;return;}
+                if(!construction && !Cart.Cargo.Any && !HaulPlanner.HasStorage(pawn,pickup)) {seen.Add(pickup.thingIDNumber);pickup=null;return;}
             }
             if(!HaulPlanner.Eligible(pawn,pickup) || Urgent && (!AllowToolCompatibility.IsUrgent(pawn.Map,pickup) || !HaulPlanner.HasStorage(pawn,pickup))) {SkipPickup();return;}
             int count=LogisticsRules.MaxUnits(HaulPlanner.Free(pawn,Cart),HaulPlanner.UnitMass(pickup),pickup.stackCount);
+            if(construction)count=System.Math.Min(count,ConstructionPlanner.Needed(pawn,Cart,pickup.def));
             if(count<=0 || !pawn.Reserve(pickup,job,1,count,errorOnFailed:false)) {SkipPickup();return;}
             if(!Travel(pickup,PathEndMode.ClosestTouch)) return;
             if(pathFailed) {SkipPickup();return;}
@@ -180,6 +193,7 @@ namespace LertWheelbarrows
                     Cart.Cargo.TryAdd(part,false);
             }
             AllowToolCompatibility.NotifyLoaded(pawn.Map,source);
+            if(construction)ConstructionPlanner.RefreshEnroute(pawn,Cart);
             seen.Add(source.thingIDNumber);
             pickup=null;ResetTravel();nextAction=Find.TickManager.TicksGame+25;
         }
@@ -190,10 +204,11 @@ namespace LertWheelbarrows
         }
         private void Deliver()
         {
+            if(construction){DeliverConstruction();return;}
             if(deliveryItem==null || !Cart.Cargo.Contains(deliveryItem))
             {
                 var dest=HaulPlanner.NextDelivery(pawn,Cart);
-                if(dest==null) {Change(TransportPhase.Park);return;}
+                if(dest==null) {if(!TryContinue())Change(TransportPhase.Park);return;}
                 deliveryItem=dest.Item;deliveryCell=dest.Cell;deliveryContainer=dest.Container;
                 if(!pawn.Reserve(dest.Target,job,errorOnFailed:false)) {ClearDelivery();nextAction=Find.TickManager.TicksGame+30;return;}
             }
@@ -221,6 +236,72 @@ namespace LertWheelbarrows
             }
             ReleaseDelivery(target);
             nextAction=Find.TickManager.TicksGame+15;
+        }
+        private bool TryContinue()
+        {
+            // A new load starts where the previous load ended. Never recollect a delivered stockpile stack.
+            if(Cart.Cargo.Any || job.count==1 || Cart.ParkingRequested || !job.playerForced && !State.Enabled(pawn) || pawn.jobs.jobQueue.Count>0)return false;
+            if(pawn.needs.food?.CurLevelPercentage<0.3f || pawn.needs.rest?.CurLevelPercentage<0.25f)return false;
+            seen.Clear();
+            pickup=construction ? ConstructionPlanner.NextPickup(pawn,Cart,seen) : HaulPlanner.NextPickup(pawn,Cart,seen,Urgent);
+            while(!construction && pickup!=null && !HaulPlanner.HasStorage(pawn,pickup))
+            {
+                seen.Add(pickup.thingIDNumber);pickup=HaulPlanner.NextPickup(pawn,Cart,seen,Urgent);
+            }
+            if(pickup==null)return false;
+            ClearDelivery();Change(TransportPhase.Gather);return true;
+        }
+        private void DeliverConstruction()
+        {
+            if(deliveryItem==null || !Cart.Cargo.Contains(deliveryItem))
+            {
+                var dest=ConstructionPlanner.NextDelivery(pawn,Cart);
+                if(dest==null)
+                {
+                    if(TryContinue())return;
+                    if(Cart.Cargo.Any)
+                    {
+                        // Cancelled/completed projects: return surplus through ordinary storage, then park.
+                        pawn.Map.enrouteManager.ReleaseAllClaimedBy(pawn);
+                        construction=false;job.count=1;Cart.ParkingRequested=true;
+                    }
+                    else Change(TransportPhase.Park);
+                    return;
+                }
+                deliveryItem=dest.Item;deliveryContainer=dest.Container;
+                if(!pawn.Reserve(deliveryContainer,job,errorOnFailed:false)){ClearDelivery();nextAction=Find.TickManager.TicksGame+30;return;}
+            }
+            if(!walking || arrived)
+            {
+                if(!ConstructionPlanner.Valid(pawn,deliveryContainer) || ConstructionPlanner.Remaining(pawn,deliveryContainer,deliveryItem.def)<=0)
+                {
+                    pawn.pather.StopDead();ReleaseConstructionDelivery();return;
+                }
+            }
+            if(!Travel(deliveryContainer,PathEndMode.Touch))return;
+            if(!pathFailed)
+            {
+                if(deliveryContainer is Blueprint_Build blue)
+                {
+                    // Use the native conversion so faction, style, enroute claims and terrain frames are preserved.
+                    if(!blue.TryReplaceWithSolidThing(pawn,out Thing built,out bool jobEnded))
+                    {
+                        if(!jobEnded)ReleaseConstructionDelivery();return;
+                    }
+                    deliveryContainer=built;
+                }
+                if(deliveryContainer is Frame frame && ConstructionPlanner.Valid(pawn,frame))
+                {
+                    int count=System.Math.Min(deliveryItem.stackCount,ConstructionPlanner.Remaining(pawn,frame,deliveryItem.def));
+                    if(count>0)Cart.Cargo.TryTransferToContainer(deliveryItem,frame.resourceContainer,count);
+                }
+            }
+            ReleaseConstructionDelivery();nextAction=Find.TickManager.TicksGame+15;
+        }
+        private void ReleaseConstructionDelivery()
+        {
+            if(deliveryContainer!=null && pawn.Map.reservationManager.ReservedBy(deliveryContainer,pawn,job))pawn.Map.reservationManager.Release(deliveryContainer,pawn,job);
+            ClearDelivery();ConstructionPlanner.RefreshEnroute(pawn,Cart);
         }
         private void ClearDelivery() {deliveryItem=null;deliveryContainer=null;deliveryCell=IntVec3.Invalid;ResetTravel();}
         private void ReleaseDelivery(LocalTargetInfo target) {pawn.Map.reservationManager.Release(target,pawn,job);ClearDelivery();}
