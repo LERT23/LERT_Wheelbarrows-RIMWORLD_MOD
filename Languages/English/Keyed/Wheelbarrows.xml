@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Load: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Cargo</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Unload all</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Unload</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Stop, unload onto the ground, deliver any remaining cargo, and return the wheelbarrow to parking.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Use wheelbarrows</LERT_WB_Use>
+  <LERT_WB_UseDesc>Automatically borrow a free wheelbarrow when a load needs multiple trips.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Cargo: {0} kg; capacity bonus: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Continue work</LERT_WB_Continue>
+  <LERT_WB_Finish>Finish work</LERT_WB_Finish>
+  <LERT_WB_CannotWork>colonist cannot perform this work now</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>wheelbarrow unavailable or forbidden</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>wheelbarrow reserved</LERT_WB_Reserved>
+  <LERT_WB_NoPath>no path</LERT_WB_NoPath>
+  <LERT_WB_Wood>Wooden wheelbarrows</LERT_WB_Wood>
+  <LERT_WB_Steel>Steel wheelbarrows</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Plasteel wheelbarrows</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Allow this wheelbarrow type in this parking zone.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Wheelbarrow parking</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Return wheelbarrows here. Configure allowed types, priority and vegetation clearing.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Zone cells: {0}. Priority: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Clear vegetation</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Designate plants and trees for cutting by colonists according to their work priorities.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Priority</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Return to the highest available priority, then the closest free space.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Low</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normal</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Preferred</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Important</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Critical</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Fetching a wheelbarrow.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Loading a wheelbarrow.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Delivering wheelbarrow cargo.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Returning a wheelbarrow.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Unloading remaining cargo onto the ground.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Finishing wheelbarrow work.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Returning the "wooden" wheelbarrow</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Returning the "steel" wheelbarrow</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Returning the "plasteel" wheelbarrow</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Park selected wheelbarrows</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Ask haulers to return all selected wheelbarrows to allowed parking. Active users finish their transport. Requests survive interruptions; free parking and available colonists assigned to hauling are required.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Return to parking requested.</LERT_WB_ParkingRequested>
+</LanguageData>

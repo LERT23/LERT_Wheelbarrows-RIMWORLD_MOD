@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Use>Использовать тачки</LERT_WB_Use>
+  <LERT_WB_UseDesc>Автоматически брать свободную тачку для груза, требующего нескольких рейсов.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Груз: {0} кг; прибавка к вместимости: +{1} кг</LERT_WB_Cargo>
+  <LERT_WB_Load>Груз: {0} / {1} кг</LERT_WB_Load>
+  <LERT_WB_CargoTab>Груз</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Выгрузить всё</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Выгрузить</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Остановиться, выгрузить на землю, доставить оставшийся груз и вернуть тачку на парковку.</LERT_WB_UnloadDesc>
+  <LERT_WB_Continue>Продолжить работу</LERT_WB_Continue>
+  <LERT_WB_Finish>Закончить работу</LERT_WB_Finish>
+  <LERT_WB_CannotWork>поселенец сейчас не может выполнять эту работу</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>тачка недоступна или запрещена</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>тачка занята</LERT_WB_Reserved>
+  <LERT_WB_NoPath>нет пути</LERT_WB_NoPath>
+  <LERT_WB_Wood>Деревянные тачки</LERT_WB_Wood>
+  <LERT_WB_Steel>Стальные тачки</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Пласталевые тачки</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Разрешить этот вид тачек на парковке.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Парковка тачек</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Зона возврата тачек. Настройте разрешённые виды, приоритет и расчистку растительности.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Клеток в зоне: {0}. Приоритет: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Расчищать растительность</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Отмечать растения и деревья для срезания поселенцами согласно их рабочим приоритетам.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Приоритет</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Возвращать на парковку с высшим доступным приоритетом, затем на ближайшее свободное место.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Низкий</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Обычный</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Предпочтительный</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Важный</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Критический</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Идёт за тачкой.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Загружает тачку.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Развозит груз из тачки.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Возвращает тачку на парковку.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Выгружает оставшийся груз на землю.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Завершает работу с тачкой.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Возвращает "деревянную" тачку</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Возвращает "стальную" тачку</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Возвращает "пласталевую" тачку</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Вернуть все тачки</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Поручить перевозчикам вернуть все выбранные тачки на разрешённую парковку. Занятые тачки завершат перевозку. Запрос сохраняется после прерывания; нужны свободные места и доступные работники с назначенной переноской.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Ожидает возврата на парковку.</LERT_WB_ParkingRequested>
+</LanguageData>

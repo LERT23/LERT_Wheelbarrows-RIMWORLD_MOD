@@ -1,0 +1,27 @@
+# Build products and editor state
+**/bin/
+**/obj/
+.vs/
+.idea/
+**/__pycache__/
+*.pdb
+*.deps.json
+*.user
+*.suo
+
+# Third-party/game binaries; distribute only the mod's own release DLL
+*.dll
+!/Assemblies/LertWheelbarrows.dll
+
+# Runtime/local data
+tools/GitHubBackupTool/.runtime/
+tools/GitHubBackupTool/startup_error.log
+*.rws
+*.rwlog
+*.log
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key

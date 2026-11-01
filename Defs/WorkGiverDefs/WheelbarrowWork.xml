@@ -1,0 +1,6 @@
+<Defs><WorkGiverDef>
+  <defName>LERT_WB_Recovery</defName><label>recover and park wheelbarrows</label>
+  <giverClass>LertWheelbarrows.WorkGiver_WheelbarrowRecovery</giverClass><workType>Hauling</workType>
+  <verb>recover wheelbarrow</verb><gerund>recovering a wheelbarrow</gerund><priorityInType>16</priorityInType>
+  <requiredCapacities><li>Manipulation</li></requiredCapacities><canBeDoneByMechs>false</canBeDoneByMechs>
+</WorkGiverDef></Defs>

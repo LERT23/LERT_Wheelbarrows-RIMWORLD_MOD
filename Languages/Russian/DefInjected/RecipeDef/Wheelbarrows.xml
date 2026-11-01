@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_MakeWood.label>изготовить деревянную тачку</LERT_WB_MakeWood.label>
+  <LERT_WB_MakeWood.jobString>Изготавливает деревянную тачку.</LERT_WB_MakeWood.jobString>
+  <LERT_WB_MakeSteel.label>изготовить стальную тачку</LERT_WB_MakeSteel.label>
+  <LERT_WB_MakeSteel.jobString>Изготавливает стальную тачку.</LERT_WB_MakeSteel.jobString>
+  <LERT_WB_MakePlasteel.label>изготовить пласталевую тачку</LERT_WB_MakePlasteel.label>
+  <LERT_WB_MakePlasteel.jobString>Изготавливает пласталевую тачку.</LERT_WB_MakePlasteel.jobString>
+</LanguageData>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef Name="LERT_WB_Base" ParentName="ResourceBase" Abstract="True">
+    <thingClass>LertWheelbarrows.Thing_Wheelbarrow</thingClass>
+    <tickerType>Normal</tickerType>
+    <stackLimit>1</stackLimit>
+    <selectable>true</selectable>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <alwaysHaulable>false</alwaysHaulable>
+    <drawOffscreen>true</drawOffscreen>
+    <thingCategories>
+      <li>LERT_WB_Wheelbarrows</li>
+    </thingCategories>
+    <inspectorTabs>
+      <li>LertWheelbarrows.ITab_WheelbarrowCargo</li>
+    </inspectorTabs>
+    <graphicData>
+      <graphicClass>LertWheelbarrows.Graphic_Wheelbarrow</graphicClass>
+      <drawSize>(1.4,1.4)</drawSize>
+      <drawRotated>true</drawRotated>
+    </graphicData>
+    <tradeTags>
+      <li>LERT_WB_Trade</li>
+      <li>Wheelbarrow</li>
+      <li>WorkTransport</li>
+      <li>HaulingEquipment</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef ParentName="LERT_WB_Base">
+    <defName>LERT_WB_Wood</defName>
+    <label>wooden wheelbarrow</label>
+    <description>A wooden wheelbarrow with its own mixed cargo container. Adds 100 kg to the user's mass budget and multiplies movement speed by 0.8 while in use.</description>
+    <graphicData>
+      <texPath>Things/LertWheelbarrows/Wood</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>12</Mass>
+      <MarketValue>100</MarketValue>
+      <Flammability>1</Flammability>
+    </statBases>
+    <modExtensions>
+      <li Class="LertWheelbarrows.WheelbarrowProperties">
+        <kind>Wood</kind>
+        <bonusKg>100</bonusKg>
+      </li>
+    </modExtensions>
+    <tradeTags>
+      <li>LERT_WB_General</li>
+      <li>LERT_WB_Primitive</li>
+      <li>WoodenWheelbarrow</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef ParentName="LERT_WB_Base">
+    <defName>LERT_WB_Steel</defName>
+    <label>steel wheelbarrow</label>
+    <description>A steel wheelbarrow. Adds 150 kg to the user's mass budget. Caps movement speed at 4.6 cells per second without speeding up slower colonists.</description>
+    <graphicData>
+      <texPath>Things/LertWheelbarrows/Steel</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>18</Mass>
+      <MarketValue>250</MarketValue>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <modExtensions>
+      <li Class="LertWheelbarrows.WheelbarrowProperties">
+        <kind>Steel</kind>
+        <bonusKg>150</bonusKg>
+      </li>
+    </modExtensions>
+    <tradeTags>
+      <li>LERT_WB_General</li>
+      <li>SteelWheelbarrow</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef ParentName="LERT_WB_Base">
+    <defName>LERT_WB_Plasteel</defName>
+    <label>plasteel wheelbarrow</label>
+    <description>A plasteel wheelbarrow. Adds 200 kg to the user's mass budget without changing movement speed.</description>
+    <graphicData>
+      <texPath>Things/LertWheelbarrows/Plasteel</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Mass>10</Mass>
+      <MarketValue>820</MarketValue>
+      <Flammability>0</Flammability>
+    </statBases>
+    <modExtensions>
+      <li Class="LertWheelbarrows.WheelbarrowProperties">
+        <kind>Plasteel</kind>
+        <bonusKg>200</bonusKg>
+      </li>
+    </modExtensions>
+    <tradeTags>
+      <li>LERT_WB_Advanced</li>
+      <li>PlasteelWheelbarrow</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>

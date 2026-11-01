@@ -1,0 +1,6 @@
+<Defs><JobDef>
+  <defName>LERT_WB_Transport</defName><driverClass>LertWheelbarrows.JobDriver_Wheelbarrow</driverClass>
+  <reportString>Transporting with a wheelbarrow.</reportString><suspendable>false</suspendable>
+  <casualInterruptible>false</casualInterruptible><playerInterruptible>true</playerInterruptible>
+  <checkOverrideOnDamage>Always</checkOverrideOnDamage><allowOpportunisticPrefix>false</allowOpportunisticPrefix>
+</JobDef></Defs>

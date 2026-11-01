@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>LERT_WB_Wheelbarrows</defName>
+    <label>wheelbarrows</label>
+    <parent>Manufactured</parent>
+  </ThingCategoryDef>
+</Defs>

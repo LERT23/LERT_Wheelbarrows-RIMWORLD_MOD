@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>деревянная тачка</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>Тачка с собственным контейнером. Добавляет 100 кг вместимости; скорость поселенца умножается на 0,80.</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>стальная тачка</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>Добавляет 150 кг вместимости. Ограничивает скорость сверху до 4,6 клетки/с, не ускоряя медленных поселенцев.</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>пласталевая тачка</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>Добавляет 200 кг вместимости, сохраняя скорость поселенца.</LERT_WB_Plasteel.description>
+</LanguageData>

@@ -1,0 +1,4 @@
+<Patch><Operation Class="PatchOperationAdd">
+  <xpath>Defs/DesignationCategoryDef[defName="Zone"]/specialDesignatorClasses</xpath>
+  <value><li>LertWheelbarrows.Designator_WheelbarrowParking</li></value>
+</Operation></Patch>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Вантаж: {0} / {1} кг</LERT_WB_Load>
+  <LERT_WB_CargoTab>Вантаж</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Вивантажити все</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Вивантажити</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Зупинитися, вивантажити на землю, доставити решту вантажу та повернути тачку на паркування.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Використовувати тачки</LERT_WB_Use>
+  <LERT_WB_UseDesc>Автоматично брати вільну тачку для вантажу, який потребує кількох рейсів.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Вантаж: {0} кг; бонус місткості: +{1} кг</LERT_WB_Cargo>
+  <LERT_WB_Continue>Продовжити роботу</LERT_WB_Continue>
+  <LERT_WB_Finish>Закінчити роботу</LERT_WB_Finish>
+  <LERT_WB_CannotWork>поселенець зараз не може виконувати цю роботу</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>тачка недоступна або заборонена</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>тачка зайнята</LERT_WB_Reserved>
+  <LERT_WB_NoPath>немає шляху</LERT_WB_NoPath>
+  <LERT_WB_Wood>Дерев’яні тачки</LERT_WB_Wood>
+  <LERT_WB_Steel>Сталеві тачки</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Пласталеві тачки</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Дозволити цей вид тачок на паркуванні.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Паркування тачок</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Зона повернення тачок. Налаштуйте дозволені види, пріоритет і розчищення рослинності.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Місць у зоні: {0}. Пріоритет: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Розчищати рослинність</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Позначати рослини й дерева до зрізання. Роботу виконують поселенці за своїми пріоритетами.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Пріоритет</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Повернення обирає найвищий доступний пріоритет, потім найближче вільне місце.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Низький</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Звичайний</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Бажаний</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Важливий</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Критичний</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Йде по тачку.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Збирає вантаж у тачку.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Розвозить вантаж зі тачки.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Повертає тачку на паркування.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Вивантажує залишок на землю.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Завершує роботу з тачкою.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Повертає "дерев’яну" тачку</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Повертає "сталеву" тачку</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Повертає "пласталеву" тачку</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Повернути всі тачки</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Доручити перевізникам повернути всі вибрані тачки на дозволене паркування. Зайняті тачки завершать перевезення. Запит зберігається після переривання; потрібні вільні місця та доступні працівники з призначеною роботою перенесення.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Очікує повернення на паркування.</LERT_WB_ParkingRequested>
+</LanguageData>
