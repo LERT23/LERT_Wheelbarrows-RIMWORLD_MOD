@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>roabă din lemn</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>O roabă cu recipient propriu pentru încărcătură mixtă. Adaugă 100 kg la capacitatea utilizatorului. În timpul folosirii, viteza de deplasare este înmulțită cu 0,80.</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>roabă din oțel</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>Adaugă 150 kg la capacitatea utilizatorului. Limitează viteza la cel mult 4,6 celule pe secundă, fără a accelera coloniștii mai lenți.</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>roabă din plastoțel</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>Adaugă 200 kg la capacitatea utilizatorului fără a modifica viteza de deplasare.</LERT_WB_Plasteel.description>
+</LanguageData>

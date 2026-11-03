@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Náklad: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Náklad</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Vyložit vše</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Vyložit</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Zastavit, vyložit náklad na zem, doručit zbývající náklad a vrátit kolečko na parkoviště.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Používat kolečka</LERT_WB_Use>
+  <LERT_WB_UseDesc>Automaticky vzít volné kolečko, pokud by přeprava nákladu vyžadovala více cest.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Náklad: {0} kg; dodatečná nosnost: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Pokračovat v práci</LERT_WB_Continue>
+  <LERT_WB_Finish>Ukončit práci</LERT_WB_Finish>
+  <LERT_WB_CannotWork>kolonista nyní nemůže tuto práci vykonávat</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>kolečko není dostupné nebo je zakázané</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>kolečko je rezervované</LERT_WB_Reserved>
+  <LERT_WB_NoPath>není dostupná cesta</LERT_WB_NoPath>
+  <LERT_WB_Wood>Dřevěná kolečka</LERT_WB_Wood>
+  <LERT_WB_Steel>Ocelová kolečka</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Plastocelová kolečka</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Povolit tento typ kolečka v této parkovací zóně.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Parkoviště koleček</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Vracet kolečka sem. Nastavit povolené typy, prioritu a odstraňování vegetace.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Počet polí zóny: {0}. Priorita: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Odstranit vegetaci</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Označit rostliny a stromy ke skácení nebo posekání kolonisty podle jejich pracovních priorit.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Priorita</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Vybrat dostupné parkoviště s nejvyšší prioritou a poté nejbližší volné místo.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Nízká</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normální</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Upřednostněná</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Důležitá</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Kritická</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Jde pro kolečko.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Nakládá kolečko.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Doručuje náklad kolečka.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Vrací kolečko.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Vykládá zbývající náklad na zem.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Ukončuje práci s kolečkem.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Vrací dřevěné kolečko</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Vrací ocelové kolečko</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Vrací plastocelové kolečko</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Zaparkovat vybraná kolečka</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Požádat nosiče o vrácení jednoho nebo všech vybraných koleček na povolené parkoviště. Kolečka s požadavkem mají značku na mapě; tlačítko se deaktivuje, pokud už mají požadavek všechna vybraná kolečka. Současní uživatelé dokončí přepravu. Jsou potřeba volná místa a dostupní nosiči. Požadavky zůstávají zachovány i po přerušení práce.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Požadavek na návrat na parkoviště zadán.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Vrátit na parkoviště</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Doručuje stavební materiál kolečkem.</LERT_WB_ConstructionDelivery>
+</LanguageData>

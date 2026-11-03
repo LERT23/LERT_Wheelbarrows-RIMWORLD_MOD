@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Kuorma: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Kuorma</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Pura kaikki</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Pura</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Pysähdy, pura kuorma maahan, toimita jäljelle jäänyt kuorma ja palauta kottikärryt pysäköintiin.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Käytä kottikärryjä</LERT_WB_Use>
+  <LERT_WB_UseDesc>Ota vapaat kottikärryt automaattisesti käyttöön, kun kuorman siirtäminen vaatii useita matkoja.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Kuorma: {0} kg; lisäkantokyky: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Jatka työtä</LERT_WB_Continue>
+  <LERT_WB_Finish>Lopeta työ</LERT_WB_Finish>
+  <LERT_WB_CannotWork>siirtolainen ei voi tehdä tätä työtä juuri nyt</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>kottikärryt eivät ole saatavilla tai niiden käyttö on kielletty</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>kottikärryt on varattu</LERT_WB_Reserved>
+  <LERT_WB_NoPath>ei reittiä</LERT_WB_NoPath>
+  <LERT_WB_Wood>Puiset kottikärryt</LERT_WB_Wood>
+  <LERT_WB_Steel>Teräksiset kottikärryt</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Muoviteräksiset kottikärryt</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Salli tämä kottikärrytyyppi tällä pysäköintialueella.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Kottikärryjen pysäköinti</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Palauta kottikärryt tänne. Määritä sallitut tyypit, prioriteetti ja kasvillisuuden raivaus.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Alueen ruudut: {0}. Prioriteetti: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Raivaa kasvillisuus</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Merkitse kasvit ja puut leikattaviksi tai kaadettaviksi. Siirtolaiset tekevät työn työprioriteettiensa mukaan.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Prioriteetti</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Valitse käytettävissä oleva korkeimman prioriteetin pysäköintialue ja sitten sen lähin vapaa paikka.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Matala</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normaali</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Suositeltu</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Tärkeä</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Kriittinen</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Hakee kottikärryt.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Lastaa kottikärryjä.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Toimittaa kottikärryjen kuormaa.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Palauttaa kottikärryjä.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Purkaa jäljelle jäänyttä kuormaa maahan.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Lopettaa työn kottikärryillä.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Palauttaa puisia kottikärryjä</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Palauttaa teräksisiä kottikärryjä</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Palauttaa muoviteräksisiä kottikärryjä</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Pysäköi valitut kottikärryt</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Pyydä kantajia palauttamaan yhdet tai kaikki valitut kottikärryt sallitulle pysäköintialueelle. Pyydetyissä kottikärryissä näkyy karttamerkki. Painike poistuu käytöstä, kun kaikille valituille on jo pyyntö. Nykyiset käyttäjät lopettavat kuljetuksen. Tarvitaan vapaita pysäköintipaikkoja ja käytettävissä olevia kantajia. Pyynnöt säilyvät keskeytysten jälkeen.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Palautusta pysäköintiin on pyydetty.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Palauta pysäköintiin</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Toimittaa rakennusmateriaaleja kottikärryillä.</LERT_WB_ConstructionDelivery>
+</LanguageData>

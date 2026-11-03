@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>dřevěné kolečko</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>Kolečko s vlastním kontejnerem pro smíšený náklad. Zvyšuje nosnost uživatele o 100 kg. Při používání se rychlost pohybu násobí hodnotou 0,80.</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>ocelové kolečko</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>Zvyšuje nosnost uživatele o 150 kg. Omezuje rychlost na nejvýše 4,6 pole za sekundu, ale pomalejší kolonisty nezrychluje.</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>plastocelové kolečko</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>Zvyšuje nosnost uživatele o 200 kg, aniž by měnilo rychlost pohybu.</LERT_WB_Plasteel.description>
+</LanguageData>

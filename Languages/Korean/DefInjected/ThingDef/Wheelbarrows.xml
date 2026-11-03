@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>목제 손수레</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>여러 종류의 화물을 함께 담을 수 있는 전용 적재함이 달린 손수레입니다. 사용자의 운반 한도가 100 kg 증가하며, 사용 중 이동 속도는 0.80배가 됩니다.</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>강철 손수레</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>사용자의 운반 한도가 150 kg 증가합니다. 이동 속도를 초당 최대 4.6칸으로 제한하지만, 느린 정착민의 속도를 높이지는 않습니다.</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>플라스틸 손수레</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>사용자의 운반 한도가 200 kg 증가합니다. 이동 속도는 바뀌지 않습니다.</LERT_WB_Plasteel.description>
+</LanguageData>

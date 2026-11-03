@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>drewniana taczka</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>Taczka z własnym pojemnikiem na mieszany ładunek. Zwiększa udźwig użytkownika o 100 kg. Podczas używania prędkość ruchu jest mnożona przez 0,80.</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>stalowa taczka</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>Zwiększa udźwig użytkownika o 150 kg. Ogranicza prędkość do 4,6 pola na sekundę, ale nie przyspiesza wolniejszych kolonistów.</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>taczka z superstali</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>Zwiększa udźwig użytkownika o 200 kg bez zmiany prędkości ruchu.</LERT_WB_Plasteel.description>
+</LanguageData>

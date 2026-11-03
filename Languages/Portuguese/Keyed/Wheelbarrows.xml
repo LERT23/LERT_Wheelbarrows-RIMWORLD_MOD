@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Carga: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Carga</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Descarregar tudo</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Descarregar</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Parar, descarregar no chão, entregar a carga restante e devolver o carrinho de mão ao estacionamento.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Usar carrinhos de mão</LERT_WB_Use>
+  <LERT_WB_UseDesc>Usar automaticamente um carrinho de mão livre quando a carga exigir várias viagens.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Carga: {0} kg; bónus de capacidade: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Continuar o trabalho</LERT_WB_Continue>
+  <LERT_WB_Finish>Terminar o trabalho</LERT_WB_Finish>
+  <LERT_WB_CannotWork>o colono não pode realizar este trabalho agora</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>carrinho de mão indisponível ou proibido</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>carrinho de mão reservado</LERT_WB_Reserved>
+  <LERT_WB_NoPath>sem caminho</LERT_WB_NoPath>
+  <LERT_WB_Wood>Carrinhos de mão de madeira</LERT_WB_Wood>
+  <LERT_WB_Steel>Carrinhos de mão de aço</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Carrinhos de mão de plasteel</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Permitir este tipo de carrinho de mão nesta zona de estacionamento.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Estacionamento de carrinhos de mão</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Devolver os carrinhos de mão a esta zona. Configurar os tipos permitidos, a prioridade e a limpeza da vegetação.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Células da zona: {0}. Prioridade: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Limpar vegetação</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Marcar plantas e árvores para corte pelos colonos, de acordo com as suas prioridades de trabalho.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Prioridade</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Escolher o estacionamento disponível com a prioridade mais alta e depois o lugar livre mais próximo.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Baixa</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normal</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Preferida</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Importante</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Crítica</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>A ir buscar um carrinho de mão.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>A carregar um carrinho de mão.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>A entregar a carga do carrinho de mão.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>A devolver um carrinho de mão.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>A descarregar a carga restante no chão.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>A terminar o trabalho com o carrinho de mão.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>A devolver o carrinho de mão de madeira</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>A devolver o carrinho de mão de aço</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>A devolver o carrinho de mão de plasteel</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Estacionar os carrinhos selecionados</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Pedir aos transportadores que devolvam um ou todos os carrinhos selecionados a um estacionamento permitido. Os carrinhos com pedido pendente mostram um símbolo no mapa; o botão fica desativado quando todos os selecionados têm um pedido. Os utilizadores atuais terminam o transporte. São necessários lugares livres e transportadores disponíveis. Os pedidos mantêm-se após uma interrupção.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Devolução ao estacionamento pedida.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Devolver ao estacionamento</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>A entregar materiais de construção com um carrinho de mão.</LERT_WB_ConstructionDelivery>
+</LanguageData>

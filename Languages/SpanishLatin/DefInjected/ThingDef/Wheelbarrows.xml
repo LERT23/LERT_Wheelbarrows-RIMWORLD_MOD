@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>carretilla de madera</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>Una carretilla con su propio contenedor para carga variada. Añade 100 kg a la capacidad del usuario y multiplica su velocidad de movimiento por 0,80 mientras se utiliza.</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>carretilla de acero</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>Añade 150 kg a la capacidad del usuario. Limita la velocidad a 4,6 casillas por segundo, sin acelerar a los colonos más lentos.</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>carretilla de plastiacero</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>Añade 200 kg a la capacidad del usuario sin modificar su velocidad de movimiento.</LERT_WB_Plasteel.description>
+</LanguageData>

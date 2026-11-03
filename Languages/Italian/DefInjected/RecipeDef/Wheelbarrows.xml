@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_MakeWood.label>fabbrica carriola di legno</LERT_WB_MakeWood.label>
+  <LERT_WB_MakeWood.jobString>Sta fabbricando una carriola di legno.</LERT_WB_MakeWood.jobString>
+  <LERT_WB_MakeSteel.label>fabbrica carriola d'acciaio</LERT_WB_MakeSteel.label>
+  <LERT_WB_MakeSteel.jobString>Sta fabbricando una carriola d'acciaio.</LERT_WB_MakeSteel.jobString>
+  <LERT_WB_MakePlasteel.label>fabbrica carriola di plastacciaio</LERT_WB_MakePlasteel.label>
+  <LERT_WB_MakePlasteel.jobString>Sta fabbricando una carriola di plastacciaio.</LERT_WB_MakePlasteel.jobString>
+</LanguageData>

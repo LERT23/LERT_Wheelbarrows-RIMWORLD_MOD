@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Încărcătură: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Încărcătură</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Descarcă tot</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Descarcă</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Oprește-te, descarcă pe sol, livrează încărcătura rămasă și adu roaba înapoi în parcare.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Folosește roabe</LERT_WB_Use>
+  <LERT_WB_UseDesc>Folosește automat o roabă liberă când încărcătura necesită mai multe drumuri.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Încărcătură: {0} kg; capacitate suplimentară: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Continuă lucrul</LERT_WB_Continue>
+  <LERT_WB_Finish>Încheie lucrul</LERT_WB_Finish>
+  <LERT_WB_CannotWork>colonistul nu poate efectua această muncă acum</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>roaba nu este disponibilă sau este interzisă</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>roaba este rezervată</LERT_WB_Reserved>
+  <LERT_WB_NoPath>nu există drum</LERT_WB_NoPath>
+  <LERT_WB_Wood>Roabe din lemn</LERT_WB_Wood>
+  <LERT_WB_Steel>Roabe din oțel</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Roabe din plastoțel</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Permite acest tip de roabă în această zonă de parcare.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Parcare pentru roabe</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Adu roabele înapoi aici. Configurează tipurile permise, prioritatea și îndepărtarea vegetației.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Celule în zonă: {0}. Prioritate: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Îndepărtează vegetația</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Marchează plantele și copacii pentru a fi tăiați de coloniști conform priorităților lor de muncă.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Prioritate</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Alege parcarea disponibilă cu prioritatea cea mai mare, apoi cel mai apropiat loc liber.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Scăzută</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normală</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Preferată</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Importantă</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Critică</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Merge să ia o roabă.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Încarcă o roabă.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Livrează încărcătura roabei.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Aduce o roabă înapoi.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Descarcă încărcătura rămasă pe sol.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Încheie lucrul cu roaba.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Aduce înapoi roaba din lemn</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Aduce înapoi roaba din oțel</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Aduce înapoi roaba din plastoțel</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Parchează roabele selectate</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Cere transportatorilor să aducă una sau toate roabele selectate într-o parcare permisă. Roabele cu cereri în așteptare au un marcaj pe hartă; butonul este dezactivat când toate cele selectate au deja o cerere. Utilizatorii actuali își încheie transportul. Sunt necesare locuri libere și transportatori disponibili. Cererile se păstrează după întreruperea lucrului.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>S-a solicitat întoarcerea în parcare.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Adu înapoi în parcare</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Livrează materiale de construcție cu o roabă.</LERT_WB_ConstructionDelivery>
+</LanguageData>

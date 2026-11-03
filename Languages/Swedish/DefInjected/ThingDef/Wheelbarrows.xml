@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>träskottkärra</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>En skottkärra med egen behållare för blandad last. Ökar användarens bärförmåga med 100 kg. Under användning multipliceras rörelsehastigheten med 0,80.</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>stålskottkärra</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>Ökar användarens bärförmåga med 150 kg. Begränsar rörelsehastigheten till 4,6 rutor per sekund utan att göra långsammare kolonister snabbare.</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>skottkärra av plaststål</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>Ökar användarens bärförmåga med 200 kg utan att ändra rörelsehastigheten.</LERT_WB_Plasteel.description>
+</LanguageData>

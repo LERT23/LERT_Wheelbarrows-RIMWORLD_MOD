@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_MakeWood.label>fabricar carretilla de madera</LERT_WB_MakeWood.label>
+  <LERT_WB_MakeWood.jobString>Fabricando una carretilla de madera.</LERT_WB_MakeWood.jobString>
+  <LERT_WB_MakeSteel.label>fabricar carretilla de acero</LERT_WB_MakeSteel.label>
+  <LERT_WB_MakeSteel.jobString>Fabricando una carretilla de acero.</LERT_WB_MakeSteel.jobString>
+  <LERT_WB_MakePlasteel.label>fabricar carretilla de plastiacero</LERT_WB_MakePlasteel.label>
+  <LERT_WB_MakePlasteel.jobString>Fabricando una carretilla de plastiacero.</LERT_WB_MakePlasteel.jobString>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>brouette en bois</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>Une brouette avec son propre conteneur pour une cargaison variée. Ajoute 100 kg à la capacité de l'utilisateur et multiplie sa vitesse de déplacement par 0,80 pendant l'utilisation.</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>brouette en acier</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>Ajoute 150 kg à la capacité de l'utilisateur. Limite la vitesse à 4,6 cases par seconde, sans accélérer les colons plus lents.</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>brouette en plastacier</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>Ajoute 200 kg à la capacité de l'utilisateur sans modifier sa vitesse de déplacement.</LERT_WB_Plasteel.description>
+</LanguageData>

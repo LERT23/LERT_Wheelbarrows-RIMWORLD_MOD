@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_MakeWood.label>สร้างรถเข็นไม้</LERT_WB_MakeWood.label>
+  <LERT_WB_MakeWood.jobString>กำลังสร้างรถเข็นไม้</LERT_WB_MakeWood.jobString>
+  <LERT_WB_MakeSteel.label>สร้างรถเข็นเหล็กกล้า</LERT_WB_MakeSteel.label>
+  <LERT_WB_MakeSteel.jobString>กำลังสร้างรถเข็นเหล็กกล้า</LERT_WB_MakeSteel.jobString>
+  <LERT_WB_MakePlasteel.label>สร้างรถเข็นพลาสตีล</LERT_WB_MakePlasteel.label>
+  <LERT_WB_MakePlasteel.jobString>กำลังสร้างรถเข็นพลาสตีล</LERT_WB_MakePlasteel.jobString>
+</LanguageData>

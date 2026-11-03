@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_MakeWood.label>목제 손수레 제작</LERT_WB_MakeWood.label>
+  <LERT_WB_MakeWood.jobString>목제 손수레를 제작하는 중.</LERT_WB_MakeWood.jobString>
+  <LERT_WB_MakeSteel.label>강철 손수레 제작</LERT_WB_MakeSteel.label>
+  <LERT_WB_MakeSteel.jobString>강철 손수레를 제작하는 중.</LERT_WB_MakeSteel.jobString>
+  <LERT_WB_MakePlasteel.label>플라스틸 손수레 제작</LERT_WB_MakePlasteel.label>
+  <LERT_WB_MakePlasteel.jobString>플라스틸 손수레를 제작하는 중.</LERT_WB_MakePlasteel.jobString>
+</LanguageData>

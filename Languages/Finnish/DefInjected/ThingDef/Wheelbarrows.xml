@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>puiset kottikärryt</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>Kottikärryt, joissa on oma säiliö sekalaiselle kuormalle. Lisää käyttäjän kantokykyä 100 kg. Käytön aikana liikkumisnopeus kerrotaan luvulla 0,80.</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>teräksiset kottikärryt</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>Lisää käyttäjän kantokykyä 150 kg. Rajoittaa liikkumisnopeuden enintään 4,6 ruutuun sekunnissa nopeuttamatta hitaampia siirtolaisia.</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>muoviteräksiset kottikärryt</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>Lisää käyttäjän kantokykyä 200 kg muuttamatta liikkumisnopeutta.</LERT_WB_Plasteel.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_MakeWood.label>制作木制手推车</LERT_WB_MakeWood.label>
+  <LERT_WB_MakeWood.jobString>正在制作木制手推车。</LERT_WB_MakeWood.jobString>
+  <LERT_WB_MakeSteel.label>制作钢制手推车</LERT_WB_MakeSteel.label>
+  <LERT_WB_MakeSteel.jobString>正在制作钢制手推车。</LERT_WB_MakeSteel.jobString>
+  <LERT_WB_MakePlasteel.label>制作玻璃钢手推车</LERT_WB_MakePlasteel.label>
+  <LERT_WB_MakePlasteel.jobString>正在制作玻璃钢手推车。</LERT_WB_MakePlasteel.jobString>
+</LanguageData>

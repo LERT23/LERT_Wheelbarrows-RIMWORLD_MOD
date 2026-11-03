@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>적재량: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>화물</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>모두 내리기</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>내리기</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>이동을 멈추고 화물을 땅에 내린 뒤, 남은 화물을 배달하고 손수레를 주차 구역으로 돌려보냅니다.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>손수레 사용</LERT_WB_Use>
+  <LERT_WB_UseDesc>화물을 옮기는 데 여러 번 왕복해야 하면 비어 있는 손수레를 자동으로 사용합니다.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>화물: {0} kg, 추가 운반 한도: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>작업 계속</LERT_WB_Continue>
+  <LERT_WB_Finish>작업 종료</LERT_WB_Finish>
+  <LERT_WB_CannotWork>정착민이 지금 이 작업을 할 수 없음</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>손수레를 사용할 수 없거나 금지됨</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>손수레가 예약됨</LERT_WB_Reserved>
+  <LERT_WB_NoPath>경로 없음</LERT_WB_NoPath>
+  <LERT_WB_Wood>목제 손수레</LERT_WB_Wood>
+  <LERT_WB_Steel>강철 손수레</LERT_WB_Steel>
+  <LERT_WB_Plasteel>플라스틸 손수레</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>이 주차 구역에서 이 종류의 손수레를 허용합니다.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>손수레 주차 구역</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>손수레를 이곳으로 돌려보냅니다. 허용 종류, 우선순위, 식물 제거를 설정할 수 있습니다.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>구역 칸 수: {0}. 우선순위: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>식물 제거</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>식물과 나무를 베도록 지정합니다. 정착민이 작업 우선순위에 따라 처리합니다.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>우선순위</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>사용 가능한 주차 구역 중 우선순위가 가장 높은 곳을 고른 뒤 가장 가까운 빈자리를 선택합니다.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>낮음</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>보통</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>선호</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>중요</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>긴급</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>손수레를 가지러 가는 중.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>손수레에 적재하는 중.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>손수레의 화물을 배달하는 중.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>손수레를 돌려보내는 중.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>남은 화물을 땅에 내리는 중.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>손수레 작업을 마치는 중.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>목제 손수레를 돌려보내는 중</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>강철 손수레를 돌려보내는 중</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>플라스틸 손수레를 돌려보내는 중</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>선택한 손수레 주차</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>운반 담당자에게 선택한 손수레 한 대 또는 모두를 허용된 주차 구역으로 돌려보내도록 요청합니다. 요청된 손수레에는 지도 표시가 나타나며, 선택한 손수레가 모두 요청된 상태이면 버튼이 비활성화됩니다. 현재 사용자는 운반 작업을 마칩니다. 빈 주차 공간과 작업 가능한 운반 담당자가 필요합니다. 작업이 중단되어도 요청은 유지됩니다.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>주차 구역으로 반환 요청됨.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>주차 구역으로 반환</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>손수레로 건설 자재를 배달하는 중.</LERT_WB_ConstructionDelivery>
+</LanguageData>

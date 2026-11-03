@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Carico: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Carico</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Scarica tutto</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Scarica</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Fermarsi, scaricare a terra, consegnare il carico rimanente e riportare la carriola al parcheggio.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Usa le carriole</LERT_WB_Use>
+  <LERT_WB_UseDesc>Prendere automaticamente una carriola libera quando il carico richiede più viaggi.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Carico: {0} kg; capacità aggiuntiva: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Continua il lavoro</LERT_WB_Continue>
+  <LERT_WB_Finish>Termina il lavoro</LERT_WB_Finish>
+  <LERT_WB_CannotWork>il colono non può svolgere questo lavoro adesso</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>carriola non disponibile o vietata</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>carriola riservata</LERT_WB_Reserved>
+  <LERT_WB_NoPath>nessun percorso</LERT_WB_NoPath>
+  <LERT_WB_Wood>Carriole di legno</LERT_WB_Wood>
+  <LERT_WB_Steel>Carriole d'acciaio</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Carriole di plastacciaio</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Consenti questo tipo di carriola in questa zona di parcheggio.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Parcheggio per carriole</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Riportare qui le carriole. Configurare i tipi consentiti, la priorità e la rimozione della vegetazione.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Celle della zona: {0}. Priorità: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Rimuovi vegetazione</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Designare piante e alberi per il taglio da parte dei coloni secondo le loro priorità di lavoro.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Priorità</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Scegliere il parcheggio disponibile con la priorità più alta, poi il posto libero più vicino.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Bassa</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normale</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Preferita</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Importante</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Critica</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Va a prendere una carriola.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Sta caricando una carriola.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Sta consegnando il carico della carriola.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Sta riportando una carriola.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Sta scaricando a terra il carico rimanente.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Sta terminando il lavoro con la carriola.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Sta riportando la carriola di legno</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Sta riportando la carriola d'acciaio</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Sta riportando la carriola di plastacciaio</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Parcheggia le carriole selezionate</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Chiedere ai trasportatori di riportare una o tutte le carriole selezionate in un parcheggio consentito. Le carriole con una richiesta in attesa mostrano un simbolo sulla mappa; il pulsante si disattiva quando tutte quelle selezionate hanno già una richiesta. Gli utilizzatori attuali terminano il trasporto. Servono posti liberi e trasportatori disponibili. Le richieste rimangono dopo un'interruzione.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Ritorno al parcheggio richiesto.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Riporta al parcheggio</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Sta consegnando materiali da costruzione con una carriola.</LERT_WB_ConstructionDelivery>
+</LanguageData>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Muatan: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Muatan</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Bongkar semua</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Bongkar</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Berhenti, bongkar muatan ke tanah, antarkan sisa muatan, lalu kembalikan gerobak dorong ke tempat parkir.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Gunakan gerobak dorong</LERT_WB_Use>
+  <LERT_WB_UseDesc>Gunakan gerobak dorong yang tersedia secara otomatis jika muatan memerlukan beberapa kali perjalanan.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Muatan: {0} kg; tambahan kapasitas: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Lanjutkan pekerjaan</LERT_WB_Continue>
+  <LERT_WB_Finish>Selesaikan pekerjaan</LERT_WB_Finish>
+  <LERT_WB_CannotWork>kolonis tidak dapat melakukan pekerjaan ini sekarang</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>gerobak dorong tidak tersedia atau dilarang</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>gerobak dorong sudah dipesan</LERT_WB_Reserved>
+  <LERT_WB_NoPath>tidak ada jalur</LERT_WB_NoPath>
+  <LERT_WB_Wood>Gerobak dorong kayu</LERT_WB_Wood>
+  <LERT_WB_Steel>Gerobak dorong baja</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Gerobak dorong plasteel</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Izinkan jenis gerobak dorong ini di zona parkir ini.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Parkir gerobak dorong</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Kembalikan gerobak dorong ke sini. Atur jenis yang diizinkan, prioritas, dan pembersihan tumbuhan.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Petak zona: {0}. Prioritas: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Bersihkan tumbuhan</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Tandai tumbuhan dan pohon untuk dipotong oleh kolonis sesuai prioritas kerja mereka.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Prioritas</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Pilih zona parkir tersedia dengan prioritas tertinggi, lalu tempat kosong terdekat.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Rendah</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normal</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Diutamakan</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Penting</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Kritis</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Mengambil gerobak dorong.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Memuat gerobak dorong.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Mengantarkan muatan gerobak dorong.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Mengembalikan gerobak dorong.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Membongkar sisa muatan ke tanah.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Menyelesaikan pekerjaan dengan gerobak dorong.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Mengembalikan gerobak dorong kayu</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Mengembalikan gerobak dorong baja</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Mengembalikan gerobak dorong plasteel</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Parkirkan gerobak yang dipilih</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Minta pengangkut mengembalikan satu atau semua gerobak dorong yang dipilih ke tempat parkir yang diizinkan. Gerobak dengan permintaan tertunda memiliki penanda di peta; tombol dinonaktifkan jika semua gerobak yang dipilih sudah diminta. Pengguna saat ini menyelesaikan pengangkutan. Dibutuhkan tempat parkir kosong dan pengangkut yang tersedia. Permintaan tetap tersimpan setelah pekerjaan terhenti.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Pengembalian ke tempat parkir telah diminta.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Kembalikan ke tempat parkir</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Mengantarkan bahan bangunan dengan gerobak dorong.</LERT_WB_ConstructionDelivery>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>fa talicska</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>Saját tárolóval rendelkező talicska vegyes rakományhoz. A használó teherbírását 100 kg-mal növeli. Használat közben a mozgási sebesség 0,80-szorosára változik.</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>acéltalicska</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>A használó teherbírását 150 kg-mal növeli. A mozgási sebességet legfeljebb másodpercenként 4,6 mezőre korlátozza, de a lassabb telepeseket nem gyorsítja fel.</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>plasztacél talicska</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>A használó teherbírását 200 kg-mal növeli a mozgási sebesség megváltoztatása nélkül.</LERT_WB_Plasteel.description>
+</LanguageData>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Tải trọng: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Hàng hóa</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Dỡ tất cả</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Dỡ hàng</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Dừng lại, dỡ hàng xuống đất, giao số hàng còn lại rồi đưa xe cút kít về bãi đỗ.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Dùng xe cút kít</LERT_WB_Use>
+  <LERT_WB_UseDesc>Tự động dùng xe cút kít đang rảnh khi lượng hàng cần nhiều chuyến vận chuyển.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Hàng: {0} kg; sức chở bổ sung: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Tiếp tục công việc</LERT_WB_Continue>
+  <LERT_WB_Finish>Kết thúc công việc</LERT_WB_Finish>
+  <LERT_WB_CannotWork>cư dân hiện không thể làm công việc này</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>xe cút kít không khả dụng hoặc bị cấm</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>xe cút kít đã được giữ chỗ</LERT_WB_Reserved>
+  <LERT_WB_NoPath>không có đường đi</LERT_WB_NoPath>
+  <LERT_WB_Wood>Xe cút kít bằng gỗ</LERT_WB_Wood>
+  <LERT_WB_Steel>Xe cút kít bằng thép</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Xe cút kít bằng plasteel</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Cho phép loại xe cút kít này trong khu vực đỗ xe này.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Bãi đỗ xe cút kít</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Đưa xe cút kít về đây. Thiết lập loại xe được phép, mức ưu tiên và việc dọn cây cối.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Số ô trong khu vực: {0}. Ưu tiên: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Dọn cây cối</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Đánh dấu cây cối để cư dân chặt hoặc cắt theo mức ưu tiên công việc của họ.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Ưu tiên</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Chọn bãi đỗ khả dụng có mức ưu tiên cao nhất, rồi chọn chỗ trống gần nhất.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Thấp</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Bình thường</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Ưu tiên</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Quan trọng</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Khẩn cấp</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Đang đi lấy xe cút kít.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Đang chất hàng lên xe cút kít.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Đang giao hàng từ xe cút kít.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Đang đưa xe cút kít về bãi.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Đang dỡ số hàng còn lại xuống đất.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Đang kết thúc công việc với xe cút kít.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Đang đưa xe cút kít bằng gỗ về bãi</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Đang đưa xe cút kít bằng thép về bãi</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Đang đưa xe cút kít bằng plasteel về bãi</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Đỗ các xe đã chọn</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Yêu cầu người vận chuyển đưa một hoặc tất cả xe cút kít đã chọn về bãi đỗ được phép. Xe có yêu cầu đang chờ sẽ có dấu trên bản đồ; nút bị vô hiệu hóa khi tất cả xe đã chọn đều đã có yêu cầu. Người đang sử dụng sẽ kết thúc việc vận chuyển. Cần có chỗ đỗ trống và người vận chuyển sẵn sàng. Yêu cầu vẫn được giữ sau khi công việc bị gián đoạn.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Đã yêu cầu đưa về bãi đỗ.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Đưa về bãi đỗ</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Đang giao vật liệu xây dựng bằng xe cút kít.</LERT_WB_ConstructionDelivery>
+</LanguageData>

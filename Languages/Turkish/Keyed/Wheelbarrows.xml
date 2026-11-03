@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Yük: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Yük</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Tümünü boşalt</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Boşalt</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Dur, yükü yere boşalt, kalan yükü teslim et ve el arabasını park alanına geri götür.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>El arabalarını kullan</LERT_WB_Use>
+  <LERT_WB_UseDesc>Yükü taşımak birden fazla sefer gerektiriyorsa boş bir el arabasını otomatik olarak kullan.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Yük: {0} kg; ek taşıma kapasitesi: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>İşe devam et</LERT_WB_Continue>
+  <LERT_WB_Finish>İşi bitir</LERT_WB_Finish>
+  <LERT_WB_CannotWork>kolonist şu anda bu işi yapamıyor</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>el arabası kullanılamıyor veya yasak</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>el arabası ayrılmış</LERT_WB_Reserved>
+  <LERT_WB_NoPath>yol yok</LERT_WB_NoPath>
+  <LERT_WB_Wood>Ahşap el arabaları</LERT_WB_Wood>
+  <LERT_WB_Steel>Çelik el arabaları</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Çelastik el arabaları</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Bu park alanında bu tür el arabalarına izin ver.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>El arabası park alanı</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>El arabalarını buraya geri götür. İzin verilen türleri, önceliği ve bitki temizliğini ayarla.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Alan hücreleri: {0}. Öncelik: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Bitkileri temizle</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Bitki ve ağaçları kesilmek üzere işaretle. Kolonistler iş önceliklerine göre kesim yapar.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Öncelik</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Önce kullanılabilir en yüksek öncelikli park alanını, ardından en yakın boş yeri seç.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Düşük</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normal</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Tercih edilen</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Önemli</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Kritik</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>El arabasını almaya gidiyor.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>El arabasını yüklüyor.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>El arabasının yükünü teslim ediyor.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>El arabasını geri götürüyor.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Kalan yükü yere boşaltıyor.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>El arabasıyla yaptığı işi bitiriyor.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Ahşap el arabasını geri götürüyor</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Çelik el arabasını geri götürüyor</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Çelastik el arabasını geri götürüyor</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Seçili el arabalarını park et</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Taşıyıcılardan seçili el arabalarının birini veya tümünü izin verilen park alanına geri götürmelerini iste. Talep edilen arabalar haritada işaretlenir; seçili arabaların tümü için talep varsa düğme devre dışı kalır. Mevcut kullanıcılar taşımayı bitirir. Boş park yeri ve uygun taşıyıcılar gerekir. İş kesilse bile talepler korunur.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Park alanına dönüş talep edildi.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Park alanına geri götür</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>El arabasıyla inşaat malzemelerini teslim ediyor.</LERT_WB_ConstructionDelivery>
+</LanguageData>

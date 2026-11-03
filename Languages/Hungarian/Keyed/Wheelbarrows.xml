@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Rakomány: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Rakomány</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Minden kirakodása</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Kirakodás</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Álljon meg, rakodja ki az árut a földre, szállítsa le a maradék rakományt, majd vigye vissza a talicskát a parkolóba.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Talicskák használata</LERT_WB_Use>
+  <LERT_WB_UseDesc>Ha a rakomány több fordulót igényel, automatikusan használjon egy szabad talicskát.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Rakomány: {0} kg; további teherbírás: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Munka folytatása</LERT_WB_Continue>
+  <LERT_WB_Finish>Munka befejezése</LERT_WB_Finish>
+  <LERT_WB_CannotWork>a telepes most nem tudja elvégezni ezt a munkát</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>a talicska nem elérhető vagy tiltott</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>a talicska foglalt</LERT_WB_Reserved>
+  <LERT_WB_NoPath>nincs útvonal</LERT_WB_NoPath>
+  <LERT_WB_Wood>Fa talicskák</LERT_WB_Wood>
+  <LERT_WB_Steel>Acéltalicskák</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Plasztacél talicskák</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Ennek a talicskatípusnak az engedélyezése ebben a parkolózónában.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Talicskaparkoló</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Ide kerülnek vissza a talicskák. Beállíthatók az engedélyezett típusok, a prioritás és a növényzet eltávolítása.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>A zóna mezőinek száma: {0}. Prioritás: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Növényzet eltávolítása</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Növények és fák kijelölése kivágásra. A telepesek a munkaprioritásaik szerint végzik el a feladatot.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Prioritás</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Először a legmagasabb prioritású elérhető parkolót, majd azon belül a legközelebbi szabad helyet válassza.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Alacsony</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normál</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Előnyben részesített</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Fontos</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Kritikus</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Talicskáért megy.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Talicskát rakodik meg.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Leszállítja a talicska rakományát.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Visszaviszi a talicskát.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Kirakodja a maradék rakományt a földre.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Befejezi a talicskával végzett munkát.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Visszaviszi a fa talicskát</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Visszaviszi az acéltalicskát</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Visszaviszi a plasztacél talicskát</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Kijelölt talicskák leparkolása</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Kérje a szállítókat egy vagy az összes kijelölt talicska visszavitelére egy engedélyezett parkolóba. A visszavitelre kijelölt talicskákat jel mutatja a térképen; a gomb inaktívvá válik, ha már minden kijelölt talicskára van kérés. A jelenlegi használók befejezik a szállítást. Szabad parkolóhelyek és elérhető szállítók szükségesek. A kérések megszakítás után is megmaradnak.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Visszavitel a parkolóba kérve.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Visszavitel a parkolóba</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Építőanyagot szállít talicskával.</LERT_WB_ConstructionDelivery>
+</LanguageData>

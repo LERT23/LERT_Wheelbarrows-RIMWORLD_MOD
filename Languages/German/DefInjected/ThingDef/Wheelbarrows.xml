@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>hölzerne Schubkarre</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>Eine Schubkarre mit eigenem Behälter für gemischte Ladung. Erhöht die Tragfähigkeit des Nutzers um 100 kg. Während der Nutzung wird die Bewegungsgeschwindigkeit mit 0,80 multipliziert.</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>stählerne Schubkarre</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>Erhöht die Tragfähigkeit des Nutzers um 150 kg. Begrenzt die Bewegungsgeschwindigkeit auf 4,6 Felder pro Sekunde, ohne langsamere Kolonisten zu beschleunigen.</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>Schubkarre aus Plastahl</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>Erhöht die Tragfähigkeit des Nutzers um 200 kg, ohne die Bewegungsgeschwindigkeit zu verändern.</LERT_WB_Plasteel.description>
+</LanguageData>

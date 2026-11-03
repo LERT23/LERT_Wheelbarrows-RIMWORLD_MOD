@@ -5,15 +5,12 @@
   <supportedVersions><li>1.6</li></supportedVersions>
   <modDependencies><li><packageId>brrainz.harmony</packageId><displayName>Harmony</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl></li></modDependencies>
   <loadAfter><li>brrainz.harmony</li><li>ludeon.rimworld</li><li>avilmask.commonsense</li><li>void.deepstack</li><li>unlimitedhugs.allowtool</li></loadAfter>
-  <description>Українська
-
-Три види тачок для змішаного вантажу, автоматичне перевезення, зони паркування та команди продовження й завершення роботи. Використання тачок вмикається окремо для кожного поселенця. Інтерфейс українською, англійською та російською мовами. Перегляд вантажу й ручне вивантаження під час перевезення. Постачання будматеріалів, повторні рейси без обов’язкового паркування та позначки запиту повернення. RimWorld 1.6.
-
+  <description>
 English (US)
 
 Three wheelbarrow types for mixed cargo, automatic hauling, parking zones, and commands to resume or finish work. Enable wheelbarrow use individually for each colonist. Ukrainian, English, and Russian interface. Cargo inspection and manual unloading during hauling. Construction material supply, repeat loads without mandatory parking, and parking request markers. RimWorld 1.6.
 
-Русский
+Українська (UA)
 
-Три вида тачек для смешанного груза, автоматическая перевозка, зоны парковки и команды продолжения и завершения работы. Использование тачек включается отдельно для каждого поселенца. Интерфейс на украинском, английском и русском языках. Просмотр груза и ручная выгрузка во время перевозки. Доставка стройматериалов, повторные рейсы без обязательной парковки и отметки запроса возврата. RimWorld 1.6.</description>
+Три види тачок для змішаного вантажу, автоматичне перевезення, зони паркування та команди продовження й завершення роботи. Використання тачок вмикається окремо для кожного поселенця. Інтерфейс українською, англійською та російською мовами. Перегляд вантажу й ручне вивантаження під час перевезення. Постачання будматеріалів, повторні рейси без обов’язкового паркування та позначки запиту повернення. RimWorld 1.6.</description>
 </ModMetaData>

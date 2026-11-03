@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>木制手推车</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>自带混合货物容器的手推车。为使用者增加100千克载重；使用时移动速度乘以0.80。</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>钢制手推车</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>为使用者增加150千克载重。将移动速度上限设为每秒4.6格，但不会加快较慢的殖民者。</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>玻璃钢手推车</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>为使用者增加200千克载重，不改变移动速度。</LERT_WB_Plasteel.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_MakeWood.label>vyrobit dřevěné kolečko</LERT_WB_MakeWood.label>
+  <LERT_WB_MakeWood.jobString>Vyrábí dřevěné kolečko.</LERT_WB_MakeWood.jobString>
+  <LERT_WB_MakeSteel.label>vyrobit ocelové kolečko</LERT_WB_MakeSteel.label>
+  <LERT_WB_MakeSteel.jobString>Vyrábí ocelové kolečko.</LERT_WB_MakeSteel.jobString>
+  <LERT_WB_MakePlasteel.label>vyrobit plastocelové kolečko</LERT_WB_MakePlasteel.label>
+  <LERT_WB_MakePlasteel.jobString>Vyrábí plastocelové kolečko.</LERT_WB_MakePlasteel.jobString>
+</LanguageData>

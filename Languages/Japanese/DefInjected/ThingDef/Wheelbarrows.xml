@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>木製の手押し車</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>複数種類の荷物を入れる専用コンテナを備えた手押し車です。使用者の積載量が100 kg増え、使用中の移動速度は0.80倍になります。</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>スチール製の手押し車</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>使用者の積載量が150 kg増えます。移動速度の上限は毎秒4.6マスですが、それより遅い入植者の速度は上がりません。</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>プラスチール製の手押し車</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>使用者の積載量が200 kg増えます。移動速度は変わりません。</LERT_WB_Plasteel.description>
+</LanguageData>

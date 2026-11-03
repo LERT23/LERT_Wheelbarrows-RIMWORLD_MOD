@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Last: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Last</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Lasta av allt</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Lasta av</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Stanna, lasta av på marken, leverera återstående last och lämna tillbaka skottkärran till parkeringen.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Använd skottkärror</LERT_WB_Use>
+  <LERT_WB_UseDesc>Använd automatiskt en ledig skottkärra när lasten kräver flera turer.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Last: {0} kg; extra bärförmåga: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Fortsätt arbetet</LERT_WB_Continue>
+  <LERT_WB_Finish>Avsluta arbetet</LERT_WB_Finish>
+  <LERT_WB_CannotWork>kolonisten kan inte utföra detta arbete just nu</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>skottkärran är inte tillgänglig eller är förbjuden</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>skottkärran är reserverad</LERT_WB_Reserved>
+  <LERT_WB_NoPath>ingen väg</LERT_WB_NoPath>
+  <LERT_WB_Wood>Träskottkärror</LERT_WB_Wood>
+  <LERT_WB_Steel>Stålskottkärror</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Skottkärror av plaststål</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Tillåt denna typ av skottkärra i denna parkeringszon.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Skottkärreparkering</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Lämna tillbaka skottkärror här. Ställ in tillåtna typer, prioritet och vegetationsröjning.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Rutor i zonen: {0}. Prioritet: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Röj vegetation</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Markera växter och träd för avverkning av kolonister enligt deras arbetsprioriteringar.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Prioritet</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Välj den tillgängliga parkeringen med högst prioritet och sedan den närmaste lediga platsen.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Låg</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normal</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Föredragen</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Viktig</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Kritisk</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Hämtar en skottkärra.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Lastar en skottkärra.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Levererar skottkärrans last.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Lämnar tillbaka en skottkärra.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Lastar av återstående last på marken.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Avslutar arbetet med skottkärran.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Lämnar tillbaka träskottkärran</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Lämnar tillbaka stålskottkärran</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Lämnar tillbaka skottkärran av plaststål</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Parkera valda skottkärror</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Be bärare att lämna tillbaka en eller alla valda skottkärror till en tillåten parkering. Skottkärror med en väntande begäran visar en kartmarkör; knappen inaktiveras när alla valda skottkärror redan har en begäran. Nuvarande användare avslutar transporten. Lediga parkeringsplatser och tillgängliga bärare krävs. Begäranden finns kvar efter avbrott.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Återlämning till parkeringen begärd.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Återlämna till parkeringen</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Levererar byggmaterial med en skottkärra.</LERT_WB_ConstructionDelivery>
+</LanguageData>

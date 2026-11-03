@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_MakeWood.label>lag trillebår av tre</LERT_WB_MakeWood.label>
+  <LERT_WB_MakeWood.jobString>Lager en trillebår av tre.</LERT_WB_MakeWood.jobString>
+  <LERT_WB_MakeSteel.label>lag trillebår av stål</LERT_WB_MakeSteel.label>
+  <LERT_WB_MakeSteel.jobString>Lager en trillebår av stål.</LERT_WB_MakeSteel.jobString>
+  <LERT_WB_MakePlasteel.label>lag trillebår av plastål</LERT_WB_MakePlasteel.label>
+  <LERT_WB_MakePlasteel.jobString>Lager en trillebår av plastål.</LERT_WB_MakePlasteel.jobString>
+</LanguageData>

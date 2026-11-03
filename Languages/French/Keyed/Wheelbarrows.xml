@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Charge : {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Cargaison</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Tout décharger</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Décharger</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>S'arrêter, décharger au sol, livrer la cargaison restante et ramener la brouette au parking.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Utiliser les brouettes</LERT_WB_Use>
+  <LERT_WB_UseDesc>Prendre automatiquement une brouette libre lorsque la charge nécessite plusieurs trajets.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Cargaison : {0} kg ; capacité supplémentaire : +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Continuer le travail</LERT_WB_Continue>
+  <LERT_WB_Finish>Terminer le travail</LERT_WB_Finish>
+  <LERT_WB_CannotWork>le colon ne peut pas effectuer ce travail pour le moment</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>brouette indisponible ou interdite</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>brouette réservée</LERT_WB_Reserved>
+  <LERT_WB_NoPath>aucun chemin</LERT_WB_NoPath>
+  <LERT_WB_Wood>Brouettes en bois</LERT_WB_Wood>
+  <LERT_WB_Steel>Brouettes en acier</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Brouettes en plastacier</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Autoriser ce type de brouette dans cette zone de stationnement.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Parking de brouettes</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Ramener les brouettes ici. Configurer les types autorisés, la priorité et le défrichage.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Cases de la zone : {0}. Priorité : {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Défricher</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Désigner les plantes et les arbres à couper par les colons selon leurs priorités de travail.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Priorité</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Choisir le parking disponible ayant la priorité la plus élevée, puis la place libre la plus proche.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Basse</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normale</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Préférée</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Importante</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Critique</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Va chercher une brouette.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Charge une brouette.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Livre la cargaison de la brouette.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Ramène une brouette.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Décharge la cargaison restante au sol.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Termine le travail avec la brouette.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Ramène la brouette en bois</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Ramène la brouette en acier</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Ramène la brouette en plastacier</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Garer les brouettes sélectionnées</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Demander aux transporteurs de ramener une ou toutes les brouettes sélectionnées vers un parking autorisé. Les brouettes en attente portent un symbole sur la carte ; le bouton est désactivé lorsque toutes les brouettes sélectionnées font déjà l'objet d'une demande. Les utilisateurs actuels terminent leur transport. Des places libres et des transporteurs disponibles sont nécessaires. Les demandes sont conservées après une interruption.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Retour au parking demandé.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Ramener au parking</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Livre des matériaux de construction avec une brouette.</LERT_WB_ConstructionDelivery>
+</LanguageData>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>น้ำหนักบรรทุก: {0} / {1} กก.</LERT_WB_Load>
+  <LERT_WB_CargoTab>สิ่งของ</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>ขนลงทั้งหมด</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>ขนลง</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>หยุด ขนสิ่งของลงบนพื้น ส่งสิ่งของที่เหลือ แล้วนำรถเข็นกลับไปยังที่จอด</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>ใช้รถเข็น</LERT_WB_Use>
+  <LERT_WB_UseDesc>ใช้รถเข็นที่ว่างโดยอัตโนมัติเมื่อต้องขนสิ่งของหลายเที่ยว</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>สิ่งของ: {0} กก.; ความจุเพิ่มเติม: +{1} กก.</LERT_WB_Cargo>
+  <LERT_WB_Continue>ทำงานต่อ</LERT_WB_Continue>
+  <LERT_WB_Finish>จบการทำงาน</LERT_WB_Finish>
+  <LERT_WB_CannotWork>ผู้ตั้งถิ่นฐานยังทำงานนี้ไม่ได้ในขณะนี้</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>รถเข็นไม่พร้อมใช้งานหรือถูกห้ามใช้</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>รถเข็นถูกจองแล้ว</LERT_WB_Reserved>
+  <LERT_WB_NoPath>ไม่มีเส้นทาง</LERT_WB_NoPath>
+  <LERT_WB_Wood>รถเข็นไม้</LERT_WB_Wood>
+  <LERT_WB_Steel>รถเข็นเหล็กกล้า</LERT_WB_Steel>
+  <LERT_WB_Plasteel>รถเข็นพลาสตีล</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>อนุญาตรถเข็นประเภทนี้ในเขตจอดรถนี้</LERT_WB_AllowKind>
+  <LERT_WB_Parking>ที่จอดรถเข็น</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>นำรถเข็นกลับมาที่นี่ ตั้งค่าประเภทที่อนุญาต ลำดับความสำคัญ และการกำจัดพืช</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>จำนวนช่องในเขต: {0} ลำดับความสำคัญ: {1}</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>กำจัดพืช</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>ทำเครื่องหมายพืชและต้นไม้ให้ผู้ตั้งถิ่นฐานตัดตามลำดับความสำคัญของงาน</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>ลำดับความสำคัญ</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>เลือกที่จอดที่ใช้งานได้และมีลำดับความสำคัญสูงสุดก่อน แล้วเลือกช่องว่างที่ใกล้ที่สุด</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>ต่ำ</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>ปกติ</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>ต้องการเป็นพิเศษ</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>สำคัญ</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>สำคัญสูงสุด</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>กำลังไปรับรถเข็น</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>กำลังบรรทุกสิ่งของลงรถเข็น</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>กำลังส่งสิ่งของจากรถเข็น</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>กำลังนำรถเข็นกลับ</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>กำลังขนสิ่งของที่เหลือลงบนพื้น</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>กำลังจบการทำงานกับรถเข็น</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>กำลังนำรถเข็นไม้กลับ</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>กำลังนำรถเข็นเหล็กกล้ากลับ</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>กำลังนำรถเข็นพลาสตีลกลับ</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>จอดรถเข็นที่เลือก</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>ขอให้ผู้ขนส่งนำรถเข็นที่เลือกหนึ่งคันหรือทุกคันกลับไปยังที่จอดที่อนุญาต รถเข็นที่มีคำขอค้างอยู่จะแสดงสัญลักษณ์บนแผนที่ ปุ่มจะใช้งานไม่ได้เมื่อรถเข็นที่เลือกทุกคันมีคำขอแล้ว ผู้ที่กำลังใช้งานจะจบการขนส่ง ต้องมีช่องจอดว่างและผู้ขนส่งที่พร้อมทำงาน คำขอจะยังคงอยู่แม้งานถูกขัดจังหวะ</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>ขอให้นำกลับไปยังที่จอดแล้ว</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>นำกลับไปยังที่จอด</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>กำลังส่งวัสดุก่อสร้างด้วยรถเข็น</LERT_WB_ConstructionDelivery>
+</LanguageData>

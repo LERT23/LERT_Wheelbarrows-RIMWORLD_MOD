@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>積載量：{0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>積み荷</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>すべて降ろす</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>降ろす</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>移動を止めて地面に荷物を降ろし、残りの荷物を届けてから手押し車を駐車場に戻します。</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>手押し車を使う</LERT_WB_Use>
+  <LERT_WB_UseDesc>何度も往復が必要な場合、空いている手押し車を自動で使います。</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>積み荷：{0} kg、積載量ボーナス：+{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>作業を再開</LERT_WB_Continue>
+  <LERT_WB_Finish>作業を終了</LERT_WB_Finish>
+  <LERT_WB_CannotWork>入植者は現在この作業を行えません</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>手押し車が利用できないか、使用を禁止されています</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>手押し車は予約済みです</LERT_WB_Reserved>
+  <LERT_WB_NoPath>経路がありません</LERT_WB_NoPath>
+  <LERT_WB_Wood>木製の手押し車</LERT_WB_Wood>
+  <LERT_WB_Steel>スチール製の手押し車</LERT_WB_Steel>
+  <LERT_WB_Plasteel>プラスチール製の手押し車</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>この種類の手押し車をこの駐車場で許可します。</LERT_WB_AllowKind>
+  <LERT_WB_Parking>手押し車の駐車場</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>手押し車をここに戻します。許可する種類、優先度、植物の除去を設定できます。</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>区画数：{0}。優先度：{1}。</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>植物を除去</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>植物と樹木を伐採・刈り取りに指定します。入植者は作業の優先度に従って実行します。</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>優先度</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>利用可能な最も優先度の高い駐車場を選び、その中で最も近い空き場所に戻します。</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>低</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>通常</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>優先</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>重要</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>最優先</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>手押し車を取りに行っています。</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>手押し車に積み込んでいます。</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>手押し車の荷物を届けています。</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>手押し車を戻しています。</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>残りの荷物を地面に降ろしています。</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>手押し車の作業を終了しています。</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>木製の手押し車を戻しています</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>スチール製の手押し車を戻しています</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>プラスチール製の手押し車を戻しています</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>選択した手押し車を戻す</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>運搬係に、選択した1台またはすべての手押し車を許可された駐車場へ戻すよう依頼します。依頼済みの車にはマップ上に印が付き、選択したすべての車が依頼済みになるとボタンは灰色になります。使用中の入植者は運搬を終了します。空き場所と作業可能な運搬係が必要です。作業が中断されても依頼は残ります。</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>駐車場への返却を依頼済みです。</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>駐車場に戻す</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>手押し車で建築資材を届けています。</LERT_WB_ConstructionDelivery>
+</LanguageData>

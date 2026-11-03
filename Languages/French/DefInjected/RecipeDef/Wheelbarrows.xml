@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_MakeWood.label>fabriquer une brouette en bois</LERT_WB_MakeWood.label>
+  <LERT_WB_MakeWood.jobString>Fabrique une brouette en bois.</LERT_WB_MakeWood.jobString>
+  <LERT_WB_MakeSteel.label>fabriquer une brouette en acier</LERT_WB_MakeSteel.label>
+  <LERT_WB_MakeSteel.jobString>Fabrique une brouette en acier.</LERT_WB_MakeSteel.jobString>
+  <LERT_WB_MakePlasteel.label>fabriquer une brouette en plastacier</LERT_WB_MakePlasteel.label>
+  <LERT_WB_MakePlasteel.jobString>Fabrique une brouette en plastacier.</LERT_WB_MakePlasteel.jobString>
+</LanguageData>

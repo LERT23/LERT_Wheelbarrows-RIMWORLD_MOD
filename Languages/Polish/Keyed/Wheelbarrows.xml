@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Ładunek: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Ładunek</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Rozładuj wszystko</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Rozładuj</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Zatrzymaj się, wyładuj na ziemię, dostarcz pozostały ładunek i odstaw taczkę na parking.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Używaj taczek</LERT_WB_Use>
+  <LERT_WB_UseDesc>Automatycznie bierz wolną taczkę, gdy przewiezienie ładunku wymaga kilku kursów.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Ładunek: {0} kg; dodatkowy udźwig: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Kontynuuj pracę</LERT_WB_Continue>
+  <LERT_WB_Finish>Zakończ pracę</LERT_WB_Finish>
+  <LERT_WB_CannotWork>kolonista nie może teraz wykonać tej pracy</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>taczka jest niedostępna lub zabroniona</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>taczka jest zarezerwowana</LERT_WB_Reserved>
+  <LERT_WB_NoPath>brak drogi</LERT_WB_NoPath>
+  <LERT_WB_Wood>Taczki drewniane</LERT_WB_Wood>
+  <LERT_WB_Steel>Taczki stalowe</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Taczki z superstali</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Zezwól na ten rodzaj taczek w tej strefie parkingowej.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Parking taczek</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Tutaj odstawiane są taczki. Ustaw dozwolone rodzaje, priorytet i usuwanie roślinności.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Pola strefy: {0}. Priorytet: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Usuń roślinność</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Oznacz rośliny i drzewa do wycięcia przez kolonistów zgodnie z ich priorytetami pracy.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Priorytet</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Wybierz dostępny parking o najwyższym priorytecie, a następnie najbliższe wolne miejsce.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Niski</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normalny</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Preferowany</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Ważny</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Krytyczny</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Idzie po taczkę.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Ładuje taczkę.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Dostarcza ładunek taczki.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Odstawia taczkę.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Wyładowuje pozostały ładunek na ziemię.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Kończy pracę z taczką.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Odstawia drewnianą taczkę</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Odstawia stalową taczkę</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Odstawia taczkę z superstali</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Odstaw wybrane taczki</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Zleć tragarzom odstawienie jednej lub wszystkich wybranych taczek na dozwolony parking. Taczki z oczekującym zleceniem mają znacznik na mapie; przycisk jest nieaktywny, gdy wszystkie wybrane taczki mają już zlecenie. Obecni użytkownicy kończą transport. Potrzebne są wolne miejsca i dostępni tragarze. Zlecenia pozostają po przerwaniu pracy.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Zlecono odstawienie na parking.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Odstaw na parking</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Dostarcza materiały budowlane taczką.</LERT_WB_ConstructionDelivery>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_MakeWood.label>ahşap el arabası üret</LERT_WB_MakeWood.label>
+  <LERT_WB_MakeWood.jobString>Ahşap el arabası üretiyor.</LERT_WB_MakeWood.jobString>
+  <LERT_WB_MakeSteel.label>çelik el arabası üret</LERT_WB_MakeSteel.label>
+  <LERT_WB_MakeSteel.jobString>Çelik el arabası üretiyor.</LERT_WB_MakeSteel.jobString>
+  <LERT_WB_MakePlasteel.label>çelastik el arabası üret</LERT_WB_MakePlasteel.label>
+  <LERT_WB_MakePlasteel.jobString>Çelastik el arabası üretiyor.</LERT_WB_MakePlasteel.jobString>
+</LanguageData>

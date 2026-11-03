@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>भार: {0} / {1} किग्रा</LERT_WB_Load>
+  <LERT_WB_CargoTab>सामान</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>सारा सामान उतारें</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>सामान उतारें</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>रुकें, सामान ज़मीन पर उतारें, बचा हुआ सामान पहुँचाएँ और फिर ठेला पार्किंग में लौटाएँ।</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>ठेलों का उपयोग करें</LERT_WB_Use>
+  <LERT_WB_UseDesc>कई चक्कर लगाने की ज़रूरत होने पर अपने आप खाली ठेला लें।</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>सामान: {0} किग्रा; अतिरिक्त वहन क्षमता: +{1} किग्रा</LERT_WB_Cargo>
+  <LERT_WB_Continue>काम जारी रखें</LERT_WB_Continue>
+  <LERT_WB_Finish>काम समाप्त करें</LERT_WB_Finish>
+  <LERT_WB_CannotWork>उपनिवेशवासी अभी यह काम नहीं कर सकता</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>ठेला उपलब्ध नहीं है या उसका उपयोग निषिद्ध है</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>ठेला आरक्षित है</LERT_WB_Reserved>
+  <LERT_WB_NoPath>कोई रास्ता नहीं है</LERT_WB_NoPath>
+  <LERT_WB_Wood>लकड़ी के ठेले</LERT_WB_Wood>
+  <LERT_WB_Steel>इस्पात के ठेले</LERT_WB_Steel>
+  <LERT_WB_Plasteel>प्लास्टील के ठेले</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>इस पार्किंग क्षेत्र में इस प्रकार के ठेले की अनुमति दें।</LERT_WB_AllowKind>
+  <LERT_WB_Parking>ठेलों की पार्किंग</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>ठेले यहाँ लौटाएँ। अनुमत प्रकार, प्राथमिकता और वनस्पति की सफ़ाई तय करें।</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>क्षेत्र के खाने: {0}। प्राथमिकता: {1}।</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>वनस्पति साफ़ करें</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>पौधों और पेड़ों को काटने के लिए चिह्नित करें। उपनिवेशवासी अपनी कार्य प्राथमिकताओं के अनुसार काम करेंगे।</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>प्राथमिकता</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>पहले उपलब्ध सबसे ऊँची प्राथमिकता वाली पार्किंग चुनें, फिर उसमें निकटतम खाली जगह चुनें।</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>कम</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>सामान्य</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>पसंदीदा</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>महत्वपूर्ण</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>अत्यावश्यक</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>ठेला लेने जा रहा है।</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>ठेले में सामान भर रहा है।</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>ठेले का सामान पहुँचा रहा है।</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>ठेला लौटा रहा है।</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>बचा हुआ सामान ज़मीन पर उतार रहा है।</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>ठेले का काम समाप्त कर रहा है।</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>लकड़ी का ठेला लौटा रहा है</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>इस्पात का ठेला लौटा रहा है</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>प्लास्टील का ठेला लौटा रहा है</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>चुने हुए ठेले पार्क करें</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>ढुलाई करने वालों से एक या सभी चुने हुए ठेलों को अनुमत पार्किंग में लौटाने का अनुरोध करें। अनुरोध किए गए ठेलों पर नक्शे में चिह्न दिखेगा। सभी चुने हुए ठेलों के लिए अनुरोध होने पर बटन धूसर हो जाएगा। वर्तमान उपयोगकर्ता अपनी ढुलाई समाप्त करेंगे। खाली पार्किंग और उपलब्ध ढुलाईकर्मी आवश्यक हैं। काम बाधित होने पर भी अनुरोध बना रहता है।</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>पार्किंग में लौटाने का अनुरोध किया गया है।</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>पार्किंग में लौटाएँ</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>ठेले से निर्माण सामग्री पहुँचा रहा है।</LERT_WB_ConstructionDelivery>
+</LanguageData>

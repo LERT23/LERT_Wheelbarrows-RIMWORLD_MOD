@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>xe cút kít bằng gỗ</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>Xe cút kít có thùng riêng để chở nhiều loại hàng. Tăng sức chở của người dùng thêm 100 kg. Khi sử dụng, tốc độ di chuyển được nhân với 0,80.</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>xe cút kít bằng thép</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>Tăng sức chở của người dùng thêm 150 kg. Giới hạn tốc độ di chuyển ở mức tối đa 4,6 ô mỗi giây, nhưng không làm cư dân chậm hơn di chuyển nhanh lên.</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>xe cút kít bằng plasteel</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>Tăng sức chở của người dùng thêm 200 kg mà không thay đổi tốc độ di chuyển.</LERT_WB_Plasteel.description>
+</LanguageData>

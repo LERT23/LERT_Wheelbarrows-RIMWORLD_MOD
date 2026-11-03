@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Carga: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Carga</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Descargar todo</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Descargar</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Detenerse, descargar en el suelo, entregar la carga restante y devolver la carretilla al estacionamiento.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Usar carretillas</LERT_WB_Use>
+  <LERT_WB_UseDesc>Usar automáticamente una carretilla libre cuando la carga requiera varios viajes.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Carga: {0} kg; capacidad adicional: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Continuar el trabajo</LERT_WB_Continue>
+  <LERT_WB_Finish>Terminar el trabajo</LERT_WB_Finish>
+  <LERT_WB_CannotWork>el colono no puede realizar este trabajo ahora</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>carretilla no disponible o prohibida</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>carretilla reservada</LERT_WB_Reserved>
+  <LERT_WB_NoPath>no hay camino</LERT_WB_NoPath>
+  <LERT_WB_Wood>Carretillas de madera</LERT_WB_Wood>
+  <LERT_WB_Steel>Carretillas de acero</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Carretillas de plastiacero</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Permitir este tipo de carretilla en esta zona de estacionamiento.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Estacionamiento de carretillas</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Devolver las carretillas a esta zona. Configurar los tipos permitidos, la prioridad y la limpieza de vegetación.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Casillas de la zona: {0}. Prioridad: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Limpiar vegetación</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Marcar plantas y árboles para que los colonos los corten según sus prioridades de trabajo.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Prioridad</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Elegir el estacionamiento disponible con mayor prioridad y después el espacio libre más cercano.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Baja</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normal</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Preferida</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Importante</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Crítica</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Va a buscar una carretilla.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Cargando una carretilla.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Entregando la carga de la carretilla.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Devolviendo una carretilla.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Descargando la carga restante en el suelo.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Terminando el trabajo con la carretilla.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Devolviendo la carretilla de madera</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Devolviendo la carretilla de acero</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Devolviendo la carretilla de plastiacero</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Estacionar las carretillas seleccionadas</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Pedir a los transportistas que devuelvan una o todas las carretillas seleccionadas a un estacionamiento permitido. Las carretillas con solicitudes pendientes muestran un símbolo en el mapa; el botón se desactiva cuando todas las seleccionadas tienen una solicitud. Los usuarios actuales terminan el transporte. Se necesitan espacios libres y transportistas disponibles. Las solicitudes se conservan tras una interrupción.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Devolución al estacionamiento solicitada.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Devolver al estacionamiento</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Entregando materiales de construcción con una carretilla.</LERT_WB_ConstructionDelivery>
+</LanguageData>

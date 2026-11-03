@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Last: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Last</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Læs alt af</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Læs af</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Stop, læs lasten af på jorden, aflever den resterende last, og stil trillebøren tilbage på parkeringspladsen.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Brug trillebøre</LERT_WB_Use>
+  <LERT_WB_UseDesc>Brug automatisk en ledig trillebør, når lasten kræver flere ture.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Last: {0} kg; ekstra bæreevne: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Fortsæt arbejdet</LERT_WB_Continue>
+  <LERT_WB_Finish>Afslut arbejdet</LERT_WB_Finish>
+  <LERT_WB_CannotWork>kolonisten kan ikke udføre dette arbejde lige nu</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>trillebøren er utilgængelig eller forbudt</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>trillebøren er reserveret</LERT_WB_Reserved>
+  <LERT_WB_NoPath>ingen rute</LERT_WB_NoPath>
+  <LERT_WB_Wood>Trætrillebøre</LERT_WB_Wood>
+  <LERT_WB_Steel>Ståltrillebøre</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Trillebøre af plastål</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Tillad denne type trillebør i denne parkeringszone.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Parkering til trillebøre</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Stil trillebøre tilbage her. Indstil tilladte typer, prioritet og rydning af vegetation.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Felter i zonen: {0}. Prioritet: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Ryd vegetation</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Markér planter og træer til fældning eller beskæring af kolonister i henhold til deres arbejdsprioriteter.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Prioritet</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Vælg den tilgængelige parkeringszone med højest prioritet og derefter den nærmeste ledige plads.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Lav</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normal</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Foretrukket</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Vigtig</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Kritisk</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Henter en trillebør.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Læsser en trillebør.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Afleverer trillebørens last.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Stiller en trillebør tilbage.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Læsser den resterende last af på jorden.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Afslutter arbejdet med trillebøren.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Stiller trætrillebøren tilbage</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Stiller ståltrillebøren tilbage</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Stiller trillebøren af plastål tilbage</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Parkér valgte trillebøre</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Bed transportører om at stille én eller alle valgte trillebøre tilbage på en tilladt parkeringsplads. Trillebøre med en ventende anmodning får en markør på kortet; knappen deaktiveres, når alle valgte trillebøre allerede har en anmodning. Nuværende brugere afslutter deres transport. Ledige pladser og tilgængelige transportører er nødvendige. Anmodninger bevares efter afbrydelser.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Der er anmodet om tilbagelevering til parkeringen.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Stil tilbage på parkering</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Afleverer byggematerialer med en trillebør.</LERT_WB_ConstructionDelivery>
+</LanguageData>

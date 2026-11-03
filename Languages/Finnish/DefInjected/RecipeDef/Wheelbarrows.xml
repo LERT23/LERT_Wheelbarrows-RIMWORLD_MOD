@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_MakeWood.label>valmista puiset kottikärryt</LERT_WB_MakeWood.label>
+  <LERT_WB_MakeWood.jobString>Valmistaa puisia kottikärryjä.</LERT_WB_MakeWood.jobString>
+  <LERT_WB_MakeSteel.label>valmista teräksiset kottikärryt</LERT_WB_MakeSteel.label>
+  <LERT_WB_MakeSteel.jobString>Valmistaa teräksisiä kottikärryjä.</LERT_WB_MakeSteel.jobString>
+  <LERT_WB_MakePlasteel.label>valmista muoviteräksiset kottikärryt</LERT_WB_MakePlasteel.label>
+  <LERT_WB_MakePlasteel.jobString>Valmistaa muoviteräksisiä kottikärryjä.</LERT_WB_MakePlasteel.jobString>
+</LanguageData>

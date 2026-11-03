@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_MakeWood.label>fabrică roabă din lemn</LERT_WB_MakeWood.label>
+  <LERT_WB_MakeWood.jobString>Fabrică o roabă din lemn.</LERT_WB_MakeWood.jobString>
+  <LERT_WB_MakeSteel.label>fabrică roabă din oțel</LERT_WB_MakeSteel.label>
+  <LERT_WB_MakeSteel.jobString>Fabrică o roabă din oțel.</LERT_WB_MakeSteel.jobString>
+  <LERT_WB_MakePlasteel.label>fabrică roabă din plastoțel</LERT_WB_MakePlasteel.label>
+  <LERT_WB_MakePlasteel.jobString>Fabrică o roabă din plastoțel.</LERT_WB_MakePlasteel.jobString>
+</LanguageData>

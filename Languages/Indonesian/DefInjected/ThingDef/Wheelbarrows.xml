@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>gerobak dorong kayu</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>Gerobak dorong dengan wadah sendiri untuk muatan campuran. Menambah kapasitas angkut pengguna sebesar 100 kg. Saat digunakan, kecepatan gerak dikalikan 0,80.</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>gerobak dorong baja</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>Menambah kapasitas angkut pengguna sebesar 150 kg. Membatasi kecepatan gerak hingga 4,6 petak per detik tanpa mempercepat kolonis yang lebih lambat.</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>gerobak dorong plasteel</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>Menambah kapasitas angkut pengguna sebesar 200 kg tanpa mengubah kecepatan gerak.</LERT_WB_Plasteel.description>
+</LanguageData>

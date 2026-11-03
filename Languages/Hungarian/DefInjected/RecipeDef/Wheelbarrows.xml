@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_MakeWood.label>fa talicska készítése</LERT_WB_MakeWood.label>
+  <LERT_WB_MakeWood.jobString>Fa talicskát készít.</LERT_WB_MakeWood.jobString>
+  <LERT_WB_MakeSteel.label>acéltalicska készítése</LERT_WB_MakeSteel.label>
+  <LERT_WB_MakeSteel.jobString>Acéltalicskát készít.</LERT_WB_MakeSteel.jobString>
+  <LERT_WB_MakePlasteel.label>plasztacél talicska készítése</LERT_WB_MakePlasteel.label>
+  <LERT_WB_MakePlasteel.jobString>Plasztacél talicskát készít.</LERT_WB_MakePlasteel.jobString>
+</LanguageData>

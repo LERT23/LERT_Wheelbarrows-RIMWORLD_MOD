@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Ladung: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Ladung</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Alles abladen</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Abladen</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Anhalten, die Ladung auf dem Boden abladen, verbleibende Fracht ausliefern und die Schubkarre zum Stellplatz zurückbringen.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Schubkarren verwenden</LERT_WB_Use>
+  <LERT_WB_UseDesc>Automatisch eine freie Schubkarre verwenden, wenn die Ladung mehrere Transporte erfordert.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Ladung: {0} kg; zusätzliche Tragfähigkeit: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Arbeit fortsetzen</LERT_WB_Continue>
+  <LERT_WB_Finish>Arbeit beenden</LERT_WB_Finish>
+  <LERT_WB_CannotWork>der Kolonist kann diese Arbeit gerade nicht ausführen</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>Schubkarre nicht verfügbar oder verboten</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>Schubkarre reserviert</LERT_WB_Reserved>
+  <LERT_WB_NoPath>kein Weg</LERT_WB_NoPath>
+  <LERT_WB_Wood>Hölzerne Schubkarren</LERT_WB_Wood>
+  <LERT_WB_Steel>Stählerne Schubkarren</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Schubkarren aus Plastahl</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Diese Art von Schubkarre in dieser Stellplatzzone erlauben.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Schubkarrenstellplatz</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Schubkarren hierher zurückbringen. Erlaubte Arten, Priorität und Vegetationsbeseitigung festlegen.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Felder der Zone: {0}. Priorität: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Vegetation entfernen</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Pflanzen und Bäume zum Schneiden oder Fällen markieren. Kolonisten erledigen dies gemäß ihren Arbeitsprioritäten.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Priorität</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>Den verfügbaren Stellplatz mit der höchsten Priorität und dort den nächsten freien Platz wählen.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Niedrig</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normal</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Bevorzugt</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Wichtig</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Kritisch</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Holt eine Schubkarre.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Belädt eine Schubkarre.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Liefert die Ladung der Schubkarre aus.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Bringt eine Schubkarre zurück.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Lädt die verbleibende Ladung auf dem Boden ab.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Beendet die Arbeit mit der Schubkarre.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Bringt die hölzerne Schubkarre zurück</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Bringt die stählerne Schubkarre zurück</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Bringt die Schubkarre aus Plastahl zurück</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Gewählte Schubkarren abstellen</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Transporteure beauftragen, eine oder alle gewählten Schubkarren zu einem erlaubten Stellplatz zurückzubringen. Beauftragte Schubkarren erhalten eine Kartenmarkierung; die Schaltfläche wird deaktiviert, sobald für alle gewählten Schubkarren ein Auftrag besteht. Aktuelle Nutzer beenden ihren Transport. Freie Stellplätze und verfügbare Transporteure sind erforderlich. Aufträge bleiben nach Unterbrechungen erhalten.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Rückkehr zum Stellplatz angefordert.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Zum Stellplatz zurückbringen</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Liefert Baumaterial mit einer Schubkarre.</LERT_WB_ConstructionDelivery>
+</LanguageData>

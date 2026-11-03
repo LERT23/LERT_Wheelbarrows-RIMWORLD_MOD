@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>carrinho de mão de madeira</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>Um carrinho de mão com recipiente próprio para carga variada. Acrescenta 100 kg à capacidade do usuário e multiplica a velocidade de movimento por 0,80 durante o uso.</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>carrinho de mão de aço</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>Acrescenta 150 kg à capacidade do usuário. Limita a velocidade a 4,6 células por segundo, sem acelerar colonos mais lentos.</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>carrinho de mão de plastiaço</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>Acrescenta 200 kg à capacidade do usuário, sem alterar a velocidade de movimento.</LERT_WB_Plasteel.description>
+</LanguageData>

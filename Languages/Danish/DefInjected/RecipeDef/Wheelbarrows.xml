@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_MakeWood.label>fremstil trætrillebør</LERT_WB_MakeWood.label>
+  <LERT_WB_MakeWood.jobString>Fremstiller en trætrillebør.</LERT_WB_MakeWood.jobString>
+  <LERT_WB_MakeSteel.label>fremstil ståltrillebør</LERT_WB_MakeSteel.label>
+  <LERT_WB_MakeSteel.jobString>Fremstiller en ståltrillebør.</LERT_WB_MakeSteel.jobString>
+  <LERT_WB_MakePlasteel.label>fremstil trillebør af plastål</LERT_WB_MakePlasteel.label>
+  <LERT_WB_MakePlasteel.jobString>Fremstiller en trillebør af plastål.</LERT_WB_MakePlasteel.jobString>
+</LanguageData>

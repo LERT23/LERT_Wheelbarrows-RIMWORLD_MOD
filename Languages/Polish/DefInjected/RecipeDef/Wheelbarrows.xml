@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_MakeWood.label>wykonaj drewnianą taczkę</LERT_WB_MakeWood.label>
+  <LERT_WB_MakeWood.jobString>Wykonuje drewnianą taczkę.</LERT_WB_MakeWood.jobString>
+  <LERT_WB_MakeSteel.label>wykonaj stalową taczkę</LERT_WB_MakeSteel.label>
+  <LERT_WB_MakeSteel.jobString>Wykonuje stalową taczkę.</LERT_WB_MakeSteel.jobString>
+  <LERT_WB_MakePlasteel.label>wykonaj taczkę z superstali</LERT_WB_MakePlasteel.label>
+  <LERT_WB_MakePlasteel.jobString>Wykonuje taczkę z superstali.</LERT_WB_MakePlasteel.jobString>
+</LanguageData>

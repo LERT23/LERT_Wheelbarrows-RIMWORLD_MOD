@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>载重：{0} / {1} 千克</LERT_WB_Load>
+  <LERT_WB_CargoTab>货物</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>卸下全部</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>卸下</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>停止移动，将货物卸到地面，运送剩余货物，然后将手推车送回停放区。</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>使用手推车</LERT_WB_Use>
+  <LERT_WB_UseDesc>需要多次搬运时，自动借用空闲的手推车。</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>货物：{0} 千克；额外载重：+{1} 千克</LERT_WB_Cargo>
+  <LERT_WB_Continue>继续工作</LERT_WB_Continue>
+  <LERT_WB_Finish>结束工作</LERT_WB_Finish>
+  <LERT_WB_CannotWork>殖民者目前无法执行此工作</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>手推车不可用或已被禁用</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>手推车已被预留</LERT_WB_Reserved>
+  <LERT_WB_NoPath>无可通行路径</LERT_WB_NoPath>
+  <LERT_WB_Wood>木制手推车</LERT_WB_Wood>
+  <LERT_WB_Steel>钢制手推车</LERT_WB_Steel>
+  <LERT_WB_Plasteel>玻璃钢手推车</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>允许此类手推车停放在本区域。</LERT_WB_AllowKind>
+  <LERT_WB_Parking>手推车停放区</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>将手推车送回此处。可设置允许的类型、优先级和植被清理。</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>区域格数：{0}。优先级：{1}。</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>清理植被</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>标记植物和树木，由殖民者按工作优先级进行砍伐或割除。</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>优先级</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>优先返回可用的最高优先级停放区，再选择最近的空位。</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>低</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>普通</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>优先</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>重要</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>紧急</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>正在取用手推车。</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>正在装载手推车。</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>正在运送手推车中的货物。</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>正在送回手推车。</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>正在将剩余货物卸到地面。</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>正在结束手推车工作。</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>正在送回木制手推车</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>正在送回钢制手推车</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>正在送回玻璃钢手推车</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>停放选中的手推车</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>请求搬运者将一辆或所有选中的手推车送回允许的停放区。已请求的手推车会显示地图标记；全部选中的手推车均已请求时，按钮将变灰。当前使用者会结束运输。需要空闲车位和可工作的搬运者；工作中断后请求仍会保留。</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>已请求送回停放区。</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>送回停放区</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>正在用手推车运送建筑材料。</LERT_WB_ConstructionDelivery>
+</LanguageData>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Load>Lading: {0} / {1} kg</LERT_WB_Load>
+  <LERT_WB_CargoTab>Lading</LERT_WB_CargoTab>
+  <LERT_WB_UnloadAll>Alles uitladen</LERT_WB_UnloadAll>
+  <LERT_WB_Unload>Uitladen</LERT_WB_Unload>
+  <LERT_WB_UnloadDesc>Stoppen, de lading op de grond uitladen, de resterende lading afleveren en de kruiwagen terugbrengen naar de parkeerplaats.</LERT_WB_UnloadDesc>
+  <LERT_WB_Use>Kruiwagens gebruiken</LERT_WB_Use>
+  <LERT_WB_UseDesc>Automatisch een vrije kruiwagen gebruiken als de lading meerdere ritten vereist.</LERT_WB_UseDesc>
+  <LERT_WB_Cargo>Lading: {0} kg; extra draagvermogen: +{1} kg</LERT_WB_Cargo>
+  <LERT_WB_Continue>Werk voortzetten</LERT_WB_Continue>
+  <LERT_WB_Finish>Werk afronden</LERT_WB_Finish>
+  <LERT_WB_CannotWork>de kolonist kan dit werk nu niet uitvoeren</LERT_WB_CannotWork>
+  <LERT_WB_Forbidden>kruiwagen niet beschikbaar of verboden</LERT_WB_Forbidden>
+  <LERT_WB_Reserved>kruiwagen gereserveerd</LERT_WB_Reserved>
+  <LERT_WB_NoPath>geen route</LERT_WB_NoPath>
+  <LERT_WB_Wood>Houten kruiwagens</LERT_WB_Wood>
+  <LERT_WB_Steel>Stalen kruiwagens</LERT_WB_Steel>
+  <LERT_WB_Plasteel>Plastalen kruiwagens</LERT_WB_Plasteel>
+  <LERT_WB_AllowKind>Dit type kruiwagen toestaan in deze parkeerzone.</LERT_WB_AllowKind>
+  <LERT_WB_Parking>Kruiwagenparkeerplaats</LERT_WB_Parking>
+  <LERT_WB_ParkingDesc>Kruiwagens hierheen terugbrengen. Toegestane typen, prioriteit en het verwijderen van begroeiing instellen.</LERT_WB_ParkingDesc>
+  <LERT_WB_ParkingInfo>Vakken in de zone: {0}. Prioriteit: {1}.</LERT_WB_ParkingInfo>
+  <LERT_WB_ClearPlants>Begroeiing verwijderen</LERT_WB_ClearPlants>
+  <LERT_WB_ClearPlantsDesc>Planten en bomen markeren om door kolonisten te worden gekapt of gesneden volgens hun werkprioriteiten.</LERT_WB_ClearPlantsDesc>
+  <LERT_WB_Priority>Prioriteit</LERT_WB_Priority>
+  <LERT_WB_PriorityDesc>De beschikbare parkeerplaats met de hoogste prioriteit kiezen en vervolgens de dichtstbijzijnde vrije plek.</LERT_WB_PriorityDesc>
+  <LERT_WB_Priority_Low>Laag</LERT_WB_Priority_Low>
+  <LERT_WB_Priority_Normal>Normaal</LERT_WB_Priority_Normal>
+  <LERT_WB_Priority_Preferred>Voorkeur</LERT_WB_Priority_Preferred>
+  <LERT_WB_Priority_Important>Belangrijk</LERT_WB_Priority_Important>
+  <LERT_WB_Priority_Critical>Kritiek</LERT_WB_Priority_Critical>
+  <LERT_WB_Phase_Acquire>Haalt een kruiwagen op.</LERT_WB_Phase_Acquire>
+  <LERT_WB_Phase_Gather>Laadt een kruiwagen.</LERT_WB_Phase_Gather>
+  <LERT_WB_Phase_Deliver>Levert de lading van de kruiwagen af.</LERT_WB_Phase_Deliver>
+  <LERT_WB_Phase_Park>Brengt een kruiwagen terug.</LERT_WB_Phase_Park>
+  <LERT_WB_Phase_Empty>Laadt de resterende lading op de grond uit.</LERT_WB_Phase_Empty>
+  <LERT_WB_Phase_Done>Rondt het werk met de kruiwagen af.</LERT_WB_Phase_Done>
+  <LERT_WB_ReturnWood>Brengt de houten kruiwagen terug</LERT_WB_ReturnWood>
+  <LERT_WB_ReturnSteel>Brengt de stalen kruiwagen terug</LERT_WB_ReturnSteel>
+  <LERT_WB_ReturnPlasteel>Brengt de plastalen kruiwagen terug</LERT_WB_ReturnPlasteel>
+  <LERT_WB_ParkSelected>Geselecteerde kruiwagens parkeren</LERT_WB_ParkSelected>
+  <LERT_WB_ParkSelectedDesc>Dragers vragen om één of alle geselecteerde kruiwagens terug te brengen naar een toegestane parkeerplaats. Kruiwagens met een openstaand verzoek krijgen een kaartmarkering; de knop wordt uitgeschakeld zodra voor alle geselecteerde kruiwagens een verzoek bestaat. Huidige gebruikers ronden hun transport af. Vrije parkeerplekken en beschikbare dragers zijn vereist. Verzoeken blijven na onderbrekingen behouden.</LERT_WB_ParkSelectedDesc>
+  <LERT_WB_ParkingRequested>Terugbrengen naar parkeerplaats aangevraagd.</LERT_WB_ParkingRequested>
+  <LERT_WB_ParkSingle>Terug naar parkeerplaats</LERT_WB_ParkSingle>
+  <LERT_WB_ConstructionDelivery>Levert bouwmaterialen af met een kruiwagen.</LERT_WB_ConstructionDelivery>
+</LanguageData>

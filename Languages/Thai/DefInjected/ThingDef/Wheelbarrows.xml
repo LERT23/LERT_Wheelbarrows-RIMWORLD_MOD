@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>รถเข็นไม้</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>รถเข็นที่มีภาชนะบรรทุกสำหรับสิ่งของหลายชนิด เพิ่มความสามารถในการบรรทุกของผู้ใช้ 100 กก. ขณะใช้งาน ความเร็วเคลื่อนที่จะคูณด้วย 0.80</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>รถเข็นเหล็กกล้า</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>เพิ่มความสามารถในการบรรทุกของผู้ใช้ 150 กก. จำกัดความเร็วเคลื่อนที่สูงสุดไว้ที่ 4.6 ช่องต่อวินาที แต่ไม่เพิ่มความเร็วให้ผู้ตั้งถิ่นฐานที่เคลื่อนที่ช้ากว่านั้น</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>รถเข็นพลาสตีล</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>เพิ่มความสามารถในการบรรทุกของผู้ใช้ 200 กก. โดยไม่เปลี่ยนความเร็วเคลื่อนที่</LERT_WB_Plasteel.description>
+</LanguageData>

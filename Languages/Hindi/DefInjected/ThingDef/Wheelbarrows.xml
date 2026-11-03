@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LERT_WB_Wood.label>लकड़ी का ठेला</LERT_WB_Wood.label>
+  <LERT_WB_Wood.description>अलग-अलग तरह के सामान के लिए अपने पात्र वाला ठेला। उपयोगकर्ता की वहन क्षमता में 100 किग्रा जोड़ता है। उपयोग के दौरान चलने की गति 0.80 गुना हो जाती है।</LERT_WB_Wood.description>
+  <LERT_WB_Steel.label>इस्पात का ठेला</LERT_WB_Steel.label>
+  <LERT_WB_Steel.description>वहन क्षमता में 150 किग्रा जोड़ता है। चलने की गति अधिकतम 4.6 खाने प्रति सेकंड तक सीमित करता है, लेकिन धीमे उपनिवेशवासियों की गति नहीं बढ़ाता।</LERT_WB_Steel.description>
+  <LERT_WB_Plasteel.label>प्लास्टील का ठेला</LERT_WB_Plasteel.label>
+  <LERT_WB_Plasteel.description>वहन क्षमता में 200 किग्रा जोड़ता है। उपनिवेशवासी की चलने की गति नहीं बदलता।</LERT_WB_Plasteel.description>
+</LanguageData>
